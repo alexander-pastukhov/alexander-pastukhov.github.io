@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "First, you need a Gestalt: An interaction of bottom-up and top-down streams during the perception of the ambiguously rotating human walker"
+year: 2017
+journal: Scientific Reports
+issue: 1
+volume: 7
+pages: 1158
+doi: 10.1038/s41598-017-01376-1
+osf: https://osf.io/ynsvy/
+pdf: Pastukhov - 2017 - First, you need a Gestalt An interaction of bottom-up and top-down streams during the perception of the ambiguously r.pdf
+authors:
+- Alexander Pastukhov
+---

@@ -1,0 +1,18 @@
+---
+layout: publication
+title: "Multi-stable perception balances stability and sensitivity"
+year: 2013
+journal: Frontiers in Computational Neuroscience
+issue: 17
+volume: 7
+pages: 17
+doi: 10.3389/fncom.2013.00017
+pdf: Pastukhov et al. - 2013 - Multi-stable perception balances stability and sensitivity.pdf
+authors:
+- Alexander Pastukhov
+- Pedro E García-Rodríguez
+- Joachim Haenicke
+- Antoni Guillamon
+- Gustavo Deco
+- Jochen Braun
+---

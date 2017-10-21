@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
+year: work in progress
+osf: https://osf.io/qqrzp/
+authors:
+- Johanna Prasch
+- Christian-Claus Carbon
+- Alexander Pastukhov
+---

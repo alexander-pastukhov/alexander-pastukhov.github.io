@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "Exogenously triggered perceptual switches in multistable structure-from-motion occur in the absence of visual awareness"
+year: 2016
+journal: Journal of Vision
+issue: 3
+volume: 16
+pages: 14
+doi: 10.1167/16.3.14
+pdf: Pastukhov, Klanke - 2016 - Exogenously triggered perceptual switches in multistable structure-from-motion occur in the absence of visual.pdf
+authors:
+- Alexander Pastukhov
+- Jan-Nikolas Klanke
+---

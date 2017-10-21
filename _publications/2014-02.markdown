@@ -1,0 +1,15 @@
+---
+layout: publication
+title: "Perceptual adaptation to structure-from-motion depends on the size of adaptor and probe objects, but not on the similarity of their shapes"
+year: 2014
+journal: Attention, Perception, & Psychophysics
+issue: 2
+volume: 76
+pages: 473-488
+doi: 10.3758/s13414-013-0567-1
+pdf: Pastukhov, Lissner, Braun - 2014 - Perceptual adaptation to structure-from-motion depends on the size of adaptor and probe objects, but.pdf
+authors:
+- Alexander Pastukhov
+- Anna Lissner
+- Jochen Braun
+---

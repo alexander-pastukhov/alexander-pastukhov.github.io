@@ -1,0 +1,13 @@
+---
+layout: publication
+title: "Perception and the strongest sensory memory trace of multi-stable displays both form shortly after the stimulus onset"
+year: 2016
+journal: Attention, Perception, & Psychophysics
+issue: 2
+volume: 78
+pages: 674-684
+doi: 10.3758/s13414-015-1004-4
+pdf: Pastukhov - 2016 - Perception and the strongest sensory memory trace of multi-stable displays both form shortly after the stimulus onset.pdf
+authors:
+- Alexander Pastukhov
+---

@@ -1,0 +1,16 @@
+---
+layout: publication
+title: "Spatial and temporal attention revealed by microsaccades"
+year: 2013
+journal: Vision Research
+issue: 0
+volume: 85
+pages: 45-57
+doi: 10.1016/j.visres.2012.11.004
+pdf: Pastukhov et al. - 2013 - Spatial and temporal attention revealed by microsaccades.pdf
+authors:
+- Alexander Pastukhov
+- Victoria Vonau
+- Solveiga Stonkute
+- Jochen Braun
+---

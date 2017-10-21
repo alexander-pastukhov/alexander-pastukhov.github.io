@@ -1,0 +1,18 @@
+---
+layout: publication
+title: "Increased readiness for adaptation and faster alternation rates under binocular rivalry in children."
+year: 2011
+journal: Frontiers in human neuroscience
+issue: 128
+volume: 5
+pages: 128
+doi: 10.3389/fnhum.2011.00128
+pdf: Hudak et al. - 2011 - Increased readiness for adaptation and faster alternation rates under binocular rivalry in children.pdf
+authors:
+- Mariann Hudak
+- Patricia Gervan
+- Björn Friedrich
+- Alexander Pastukhov
+- Jochen Braun
+- Ilona Kovacs
+---

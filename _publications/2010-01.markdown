@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "No Stopping and No Slowing: Removing Visual Attention with No Effect on Reversals of Phenomenal Appearance"
+year: 2010
+journal: Artificial Neural Networks – ICANN 2010
+volume: 6354
+pages: 510-515
+doi: 10.1007/978-3-642-15825-4_70
+pdf: Pastukhov, Vonau, Braun - 2010 - No Stopping and No Slowing Removing Visual Attention with No Effect on Reversals of Phenomenal Appearan.pdf
+authors:
+- Alexander Pastukhov
+- Victoria Vonau
+- Jochen Braun
+---

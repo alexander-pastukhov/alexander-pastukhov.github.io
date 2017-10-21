@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "Disparate time-courses of adaptation and facilitation in multi-stable perception"
+year: 2013
+journal: Learning & Perception
+issue: Supplement 2
+volume: 5
+pages: 101-118
+doi: 10.1556/LP.5.2013.Suppl2.7
+pdf: Pastukhov, Braun - 2013 - Disparate time-courses of adaptation and facilitation in multi-stable perception.pdf
+authors:
+- Alexander Pastukhov
+- Jochen Braun
+---

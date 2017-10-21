@@ -1,0 +1,14 @@
+---
+layout: publication
+title: "Transformation priming helps to disambiguate sudden changes of sensory inputs"
+year: 2015
+journal: Vision Research
+volume: 116
+pages: 36-44
+doi: 10.1016/j.visres.2015.09.005
+pdf: Pastukhov, Vivian-Griffiths, Braun - 2015 - Transformation priming helps to disambiguate sudden changes of sensory inputs.pdf
+authors:
+- Alexander Pastukhov
+- Solveiga Vivian-Griffiths
+- Jochen Braun
+---

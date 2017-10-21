@@ -1,0 +1,15 @@
+---
+layout: publication
+title: "Visual attention is a single, integrated resource"
+year: 2009
+journal: Vision Research
+issue: 10
+volume: 49
+pages: 1166-1173
+doi: 10.1016/j.visres.2008.04.011
+pdf: Pastukhov, Fischer, Braun - 2009 - Visual attention is a single, integrated resource.pdf
+authors:
+- Alexander Pastukhov
+- Laura Fischer
+- Jochen Braun
+---

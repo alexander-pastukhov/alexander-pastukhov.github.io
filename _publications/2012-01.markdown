@@ -1,0 +1,15 @@
+---
+layout: publication
+title: "The Role of Attention in Ambiguous Reversals of Structure-From-Motion"
+year: 2012
+journal: PLoS ONE
+issue: 5
+volume: 7
+pages: e37734
+doi: 10.1371/journal.pone.0037734
+pdf: Stonkute, Braun, Pastukhov - 2012 - The Role of Attention in Ambiguous Reversals of Structure-From-Motion.pdf
+authors:
+- Solveiga Stonkute
+- Jochen Braun
+- Alexander Pastukhov
+---

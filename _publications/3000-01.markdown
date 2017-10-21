@@ -1,0 +1,9 @@
+---
+layout: publication
+title: "The Lack of Interaction between Extrinsic Grouping Factors in Motion-Induced Blindness"
+year: work in progress
+osf: https://osf.io/a47q2/
+authors:
+- Dina Devyatko
+- Alexander Pastukhov
+---
