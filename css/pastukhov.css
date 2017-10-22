@@ -3,8 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Zilla Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 
@@ -37,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -92,7 +95,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -115,7 +118,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
