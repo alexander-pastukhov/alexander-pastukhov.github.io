@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Publications</h2>
+                    <h2 class='light'>Publications</h2>
                     <br/>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                     {% for publication in sorted_publications %}
                         {% if publication.year != current_year %}
                             {% assign current_year = publication.year %}
-                            <h4>{{publication.year}}</h4>
+                            <h4 class='light'>{{publication.year}}</h4>
                         {% endif %}
                         <div class="row">
                             <div class="col-md-1" align='right'>
@@ -54,7 +54,7 @@
                             <div class="col-md-2">
                                 <p>
                                     {% if publication.pdf %}
-                                        <a class="btn-social btn-default" href= 'pdf/{{publication.pdf}}' ><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                                        <a class="btn-round btn-default" href= 'pdf/{{publication.pdf}}' ><i class="fa fa-fw fa-file-pdf-o"></i></a>
                                     {% endif %}
                                     {% if publication.osf %}
                                     <a  class="btn btn-default" href={{publication.osf}} style='width:100%'><img src="img/osf_logo.png" class="img-fluid" style="width:20px;float:left" alt="OSF">&nbsp; Open data @OSF</a>

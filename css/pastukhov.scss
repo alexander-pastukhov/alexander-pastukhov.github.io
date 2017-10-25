@@ -1,9 +1,15 @@
-/*!
- * Start Bootstrap - Freelancer v1.1.1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+---
+---
 
+$color-light-shades: #EFF3EF;
+$color-light-accent: #96AC9A;
+$color-main: #ED8F42;
+$color-dark-accent: #A65645;
+$color-dark-shades: #314F50;
+
+$color-navbar-text: $color-dark-shades;
+$color-navbar-background: $color-light-shades;
+$color-navbar-active: $color-light-accent;
 
 
 body {
@@ -25,12 +31,12 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: $color-dark-accent;
   outline: none;
 }
 
 a.dark{
-  color: #2C3E50;
+  color: $color-light-accent;
   outline: none;
 }
 
@@ -43,9 +49,20 @@ h6 {
   font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: $color-main;
 }
-hr.star-light,
-hr.star-primary {
+
+h1.light,
+h2.light,
+h3.light,
+h4.light,
+h5.light,
+h6.light {
+  color: $color-dark-accent;
+}
+
+hr.dark,
+{
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -53,36 +70,13 @@ hr.star-primary {
   max-width: 250px;
   margin: 25px auto 30px;
 }
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
-hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
-}
-hr.star-primary {
-  border-color: #2C3E50;
-}
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
-}
+
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: $color-dark-shades;
   color: white;
 }
 header .container {
@@ -117,7 +111,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: $color-navbar-background;
   font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -127,49 +121,49 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: $color-navbar-text;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: $color-navbar-text;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color:$color-navbar-text;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: $color-navbar-active;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color:$color-navbar-text;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: $color-navbar-text;
+  background: $color-navbar-active;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
+  color:$color-navbar-text;
+  background: $color-navbar-active;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: $color-navbar-text;
   text-transform: uppercase;
   font-size: 10px;
-  border-color: white;
+  border-color: $color-light-shades;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
-  color: white;
-  border-color: #18BC9C;
+  background-color: $color-navbar-active;
+  color:$color-navbar-text;
+  border-color: $color-navbar-active;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -198,8 +192,8 @@ section h2 {
   margin: 0;
   font-size: 2em;
 }
-section.success {
-  background: #18BC9C;
+section.dark {
+  background: $color-dark-shades;
   color: white;
 }
 @media (max-width: 767px) {
@@ -434,6 +428,18 @@ fieldset[disabled] .btn-success.active {
   font-size: 20px;
   line-height: 45px;
 }
+
+.btn-round {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid $color-main;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active {
