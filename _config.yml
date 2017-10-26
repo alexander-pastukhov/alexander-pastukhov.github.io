@@ -31,6 +31,9 @@ address_zip: 90201
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed
+    sass_dir: _sass
 
 collections:
 - publications

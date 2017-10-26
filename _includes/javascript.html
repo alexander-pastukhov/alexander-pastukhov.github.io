@@ -9,3 +9,120 @@
 <!--<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/contact_me.js"></script>-->
 <!-- Custom Theme JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/js/freelancer.min.js"></script>
+
+<!-- Math utilities -->
+<script src="js/libs/math.min.js" type="text/javascript"></script>
+
+<!-- WebGL utilities -->
+<script src="js/webgl_utils.js" type="text/javascript"></script>
+
+<!-- Shaders -->
+<script id="2d-vertex-shader" type="x-shader/x-vertex">
+    attribute vec4 dot_position;
+    uniform mat4 rotation_matrix;
+
+    void main() {
+        // rotating the dot
+        vec4 transformed_position = rotation_matrix * vec4(dot_position[0], dot_position[1], dot_position[2], 1);
+
+        gl_Position = vec4(transformed_position[0], transformed_position[1], 0, 1);
+        gl_PointSize = 1.0;
+    }
+</script>
+
+<script id="2d-fragment-shader" type="x-shader/x-fragment">
+    void main() {
+        gl_FragColor = vec4(1, 1, 1, 0.5);
+    }
+</script>
+
+<!-- Actual WebGL code -->
+<script>
+    $( document ).ready(function() {
+
+        // global coordinates array 
+        var coords;
+
+        // globals for time and orientation
+        var orientation= [0, 0, 0];
+        var rotation_speed= [0*Math.PI/180.0, 72*Math.PI/180.0, 0*Math.PI/180.0];
+        var previous_frame = 0;
+
+        // setting up the global webGL context
+        var canvas = document.getElementById("SFM");
+        var gl = canvas.getContext("webgl");
+
+        // figuring out background color
+        var background_RGB= canvas.style.backgroundColor;
+        background_RGB= background_RGB.replace(/^rgba?\(|\s+|\)$/g,'').split(',').map(Number);
+
+        // setting up a GLSL program
+        var vertexShader = createShaderFromScript(gl, "2d-vertex-shader");
+        var fragmentShader = createShaderFromScript(gl, "2d-fragment-shader");
+        var program = createProgram(gl, [vertexShader, fragmentShader]);
+        var position_buffer;
+
+            // gl.useProgram(program);
+
+        // find vertex variables
+        var positionLocation = gl.getAttribLocation(program, "dot_position");
+        var u_rotation_matrix= gl.getUniformLocation(program, 'rotation_matrix');
+
+        function setup_SFM(){
+           // setting up geometry
+            position_buffer = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, position_buffer);
+            gl.bufferData(gl.ARRAY_BUFFER, coords, gl.STATIC_DRAW);
+
+            // asking for the next animation
+            requestAnimationFrame(drawSFM);
+        }
+
+        function drawSFM(now) {
+                // compute time step
+                var dT = (now - previous_frame)/1000.0;
+                previous_frame= now;
+
+                // advance rotation
+                for (iAxis = 0; iAxis < 3; iAxis++) {
+                    orientation[iAxis]+= rotation_speed[iAxis] * dT;
+                    if (orientation[iAxis] > Math.PI*2){
+                        orientation[iAxis]-= Math.PI*2;
+                    }
+                }
+
+                gl.clearColor(background_RGB[0]/255.0, background_RGB[1]/255.0, background_RGB[2]/255.0, 1);
+                // console.log(background_RGB);
+                // console.log(float(background_RGB[0])/255);
+                // gl.clearColor(0, 1, 0, 1);
+                gl.clear(gl.DEPTH_BUFFER_BIT | gl.COLOR_BUFFER_BIT);
+
+                gl.useProgram(program);
+
+                // pass geometry
+                gl.enableVertexAttribArray(positionLocation);
+                gl.bindBuffer(gl.ARRAY_BUFFER, position_buffer);
+                gl.vertexAttribPointer(positionLocation, 3, gl.FLOAT, false, 0, 0);
+ 
+                // set rotation
+                var rotation_matrix= new Float32Array(math.flatten(prepare_rotation_matrix(orientation)._data));
+                gl.uniformMatrix4fv(u_rotation_matrix, false, rotation_matrix);
+
+                // draw
+                gl.drawArrays(gl.POINTS, 0, coords.length/3);
+
+                requestAnimationFrame(drawSFM);
+            };        
+
+
+        $.ajax({
+            url : "shapes/sasha.csv",
+            dataType: "text",
+            success : function (data) {
+                coords=   new Float32Array(data.replace(/\n/g, ";").split(';'));
+
+                setup_SFM();
+            }
+        });        
+    });        
+</script>
