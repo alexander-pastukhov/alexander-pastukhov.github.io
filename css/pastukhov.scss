@@ -2,7 +2,7 @@
 ---
 
 $color2:#0B554D;
-$light-green: hsl(140, 77%, 50%);
+$light-green: #c2d4d2;
 $color1:#F39237;
 $light-orange: hsl(29, 87%, 76%);
 
@@ -324,6 +324,7 @@ footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
 }
+
 .btn-outline {
   color: $color2;
   font-size: 20px;
@@ -344,6 +345,30 @@ footer .footer-below {
 .btn-dark {
   color: $color1;
 }
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active {
+  color: black;
+  background: $light-green;
+  border: solid 2px $color1;
+}
+
+.btn-light {
+  color: $color2;
+  border: solid 2px $light-green;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active,
+.btn-light.active {
+  color: black;
+  background: $light-green;
+  border: solid 2px $color2;
+}
+
 
 
 .btn-primary {
@@ -430,7 +455,7 @@ fieldset[disabled] .btn-success.active {
   color: $color1;
   background-color: white;
 }
-.btn-social {
+.btn-round {
   display: inline-block;
   height: 50px;
   width: 50px;
