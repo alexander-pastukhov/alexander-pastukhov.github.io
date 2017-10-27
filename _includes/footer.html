@@ -14,7 +14,7 @@
                     <ul class="list-inline">
                         {% if site.facebook_username %}
                         <li>
-                            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="btn-social btn-outline btn-dark"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         {% endif %}
                         {% if site.twitter_username %}
@@ -24,7 +24,7 @@
                         {% endif %}
                         {% if site.github_username %}
                         <li>
-                            <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline btn-dark"><i class="fa fa-fw fa-github"></i></a>
                         </li>
                         {% endif %}
                         {% if site.instagram_username %}
@@ -49,11 +49,14 @@
                         {% endif %}
                         {% if site.linkedin_url %}
                         <li>
-							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline btn-dark"><i class="fa fa-fw fa-linkedin"></i></a>
                         </li>
                         {% endif %}
                         <li>
-                            <a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Alexander_Pastukhov?cp=shp"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="Follow me on ResearchGate" /></a>
+                            <a href="https://www.researchgate.net/profile/Alexander_Pastukhov" class="btn-social btn-outline btn-dark"><i class="fa fa-fw icon icon-research-gate align-self-center"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.mendeley.com/profiles/alexander-pastukhov/" class="btn-social btn-outline btn-dark"><i class="fa fa-fw icon icon-mendeley align-self-center"></i></a>
                         </li>
                     </ul>
                 </div>

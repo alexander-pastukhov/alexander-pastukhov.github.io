@@ -2,7 +2,9 @@
 ---
 
 $color2:#0B554D;
+$light-green: hsl(140, 77%, 50%);
 $color1:#F39237;
+$light-orange: hsl(29, 87%, 76%);
 
 body {
   font-family: 'Zilla Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -323,9 +325,9 @@ footer .footer-below {
   background-color: #233140;
 }
 .btn-outline {
-  color: white;
+  color: $color2;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px $light-orange;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -334,10 +336,16 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: $color1;
-  background: white;
-  border: solid 2px white;
+  color: black;
+  background: $light-orange;
+  border: solid 2px $color1;
 }
+
+.btn-dark {
+  color: $color1;
+}
+
+
 .btn-primary {
   color: white;
   background-color: $color2;
@@ -426,12 +434,13 @@ fieldset[disabled] .btn-success.active {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
+  // border: 2px solid $color1;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
   line-height: 45px;
 }
+
 .btn:focus,
 .btn:active,
 .btn.active {

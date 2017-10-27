@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pastukhov";
+  src:url("fonts/pastukhov.eot");
+  src:url("fonts/pastukhov.eot?#iefix") format("embedded-opentype"),
+    url("fonts/pastukhov.woff") format("woff"),
+    url("fonts/pastukhov.ttf") format("truetype"),
+    url("fonts/pastukhov.svg#pastukhov") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "pastukhov" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pastukhov" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mendeley:before {
+  content: "\61";
+}
+.icon-research-gate:before {
+  content: "\62";
+}
