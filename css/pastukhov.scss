@@ -322,7 +322,8 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: $light-orange;
+  color: $color2;
 }
 
 .btn-outline {
@@ -343,30 +344,31 @@ footer .footer-below {
 }
 
 .btn-dark {
-  color: $color1;
+  border: solid 2px white;
+  color: white;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active,
 .btn-dark.active {
-  color: black;
-  background: $light-green;
+  color: $color1;
+  background: white;
   border: solid 2px $color1;
 }
 
 .btn-light {
-  color: $color2;
-  border: solid 2px $light-green;
+  color: black;
+  border: solid 2px black;
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active,
 .btn-light.active {
-  color: black;
-  background: $light-green;
-  border: solid 2px $color2;
+  color: $color1;
+  background: white;
+  border: solid 2px $color1;
 }
 
 
