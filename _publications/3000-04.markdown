@@ -1,0 +1,10 @@
+---
+layout: publication
+title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
+year: work in progress
+authors:
+- Astrid Schütz
+- Dario Nalis
+- Alexander Pastukhov
+
+---

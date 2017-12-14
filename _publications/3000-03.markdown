@@ -1,0 +1,13 @@
+---
+layout: publication
+title: "Co-rotation dominates perception of adjacent bi-stable structure-from-motion objects"
+year: work in progress
+osf: https://osf.io/euzjb/
+authors:
+- Alexander Pastukhov
+- Christina Rita Zaus
+- Stepan Aleshin
+- Jochen Braun
+- Christian-Claus Carbon
+
+---

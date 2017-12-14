@@ -37,8 +37,12 @@
                                         {% endif %}
                                     {% endfor %}
                                     
-                                    ({{publication.year}}).
-                                    {{publication.title}}. 
+                                    {% if publication.year != 'work in progress' %}
+                                        ({{publication.year}}).
+                                    {% else %}
+                                        (not yet!)
+                                    {% endif %}
+                                    {{publication.title}}.
                                     {% if publication.year != 'work in progress' %}
                                         <i>{{publication.journal}},</i> 
                                         {% if publication.issue %}
