@@ -1,3 +1,30 @@
+﻿- title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
+  year: 2018
+  journal: Frontiers in Psychology
+  volume: 9
+  issue: February
+  pages: 1-13
+  pdf: Nalis, Schuetz, Pastukhov - 2018 - The Bamberg Trucking Game A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential C.pdf
+  authors:
+    - Astrid Schütz
+    - Dario Nalis
+    - Alexander Pastukhov
+  doi: 10.3389/fpsyg.2018.00138
+
+
+- title: "Extrinsic grouping factors in motion-induced blindness"
+  journal: PLOS ONE
+  year: 2018
+  volume: 13
+  issue: 1
+  pages: e0192133
+  doi: 10.1371/journal.pone.0192133
+  osf: https://osf.io/a47q2/
+  pdf: Devyatko, Pastukhov - 2018 - Extrinsic grouping factors in motion-induced blindness.pdf
+  authors:
+    - Dina Devyatko
+    - Alexander Pastukhov
+
 - title: "Perceptual reversals need no prompting by attention"
   year: 2007
   journal: Journal of Vision
@@ -271,18 +298,6 @@
   authors:
     - Alexander Pastukhov
 
-- title: "Extrinsic grouping factors in motion-induced blindness"
-  journal: PLOS ONE
-  year: 2018
-  volume: 13
-  issue: 1
-  pages: e0192133
-  doi: 10.1371/journal.pone.0192133
-  osf: https://osf.io/a47q2/
-  pdf: Devyatko, Pastukhov - 2018 - Extrinsic grouping factors in motion-induced blindness.pdf
-  authors:
-    - Dina Devyatko
-    - Alexander Pastukhov
 
 - title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
   year: 3000
@@ -302,14 +317,7 @@
     - Jochen Braun
     - Christian-Claus Carbon
 
-- title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
-  year: 3000
-  authors:
-    - Astrid Schütz
-    - Dario Nalis
-    - Alexander Pastukhov
-
-- title: "Title: Reliable top-left light convention starts with Early Renaissance: An extensive approach comprising 10k artworks"
+- title: "Reliable top-left light convention starts with Early Renaissance: An extensive approach comprising 10k artworks"
   year: 3000
   osf: https://osf.io/t5qfp/
   authors:
