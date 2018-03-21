@@ -1,12 +1,4 @@
-﻿- title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
-  year: 3000
-  osf: https://osf.io/qqrzp/
-  authors:
-    - Johanna Prasch
-    - Christian-Claus Carbon
-    - Alexander Pastukhov
-
-- title: "Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion objects"
+﻿- title: "Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion objects"
   year: 3000
   osf: https://osf.io/euzjb/
   authors:
@@ -23,7 +15,16 @@
     - Christian-Claus Carbon
     - Alexander Pastukhov
 
-    - title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
+- title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
+  year: 2018
+  osf: https://osf.io/qqrzp/
+  doi: 10.3758/s13414-018-1505-z
+  authors:
+    - Alexander Pastukhov
+    - Johanna Prasch
+    - Christian-Claus Carbon
+
+- title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
   year: 2018
   journal: Frontiers in Psychology
   volume: 9
