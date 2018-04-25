@@ -1,6 +1,12 @@
 ﻿- title: "Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion objects"
-  year: 3000
+  journal: Journal of Vision
+  year: 2018
+  volume: 18
+  issue: 4
+  pages: 21
   osf: https://osf.io/euzjb/
+  doi: 10.1167/18.4.21
+  pdf: Pastukhov et al. - 2018 - Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion.pdf
   authors:
     - Alexander Pastukhov
     - Christina Rita Zaus
@@ -9,6 +15,7 @@
     - Christian-Claus Carbon
 
 - title: "Reliable top-left light convention starts with Early Renaissance: An extensive approach comprising 10k artworks"
+  journal: Frontiers in Psychology
   year: 2018
   doi: 10.3389/fpsyg.2018.00454
   volume: 9
@@ -22,6 +29,7 @@
 
 - title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
   year: 2018
+  journal: Attention, Perception, & Psychophysics
   osf: https://osf.io/qqrzp/
   doi: 10.3758/s13414-018-1505-z
   pdf: Pastukhov, Prasch, CCC - 2018 - Out of sight, out of mind.pdf
