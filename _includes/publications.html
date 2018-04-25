@@ -9,17 +9,18 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    {% assign sorted_publications = (site.data.publications | sort: 'year') | reverse %}
-                    {% assign current_year = -1 %}
-                    {% for publication in sorted_publications %}
-                        {% if publication.year != current_year %}
-                            {% assign current_year = publication.year %}
-                            {% if publication.year == 3000 %}
-                                <h4>Coming soon...</h4>
-                            {% else %}
-                                <h4>{{publication.year}}</h4>
-                            {% endif %}
+                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
+                    {% for current_group in grouped_by_year  %}
+                        <!-- Year tag -->
+                        {% if current_group.name == '3000' %}
+                            <h4>Coming soon...</h4>
+                        {% else %}
+                            <h4>{{current_group.name}}</h4>
                         {% endif %}
+
+                        <!-- Publications with the year -->
+                        {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
+                        {% for publication in sorted_publications %}
                         <div class="row">
                             <div class="col-md-1" align='right'>
                             </div>
@@ -66,8 +67,12 @@
                                 {% if publication.osf %}
                                     <a  class="btn-light btn-round btn-outline" href={{publication.osf}} style='vertical-align: middle;'><object class='align-self-center' type="image/svg+xml" data="img/osf_logo.svg" style='width:25px;vertical-align:middle'></object></a>
                                 {% endif %}
-                            </p></div>
+                                </p>
+                            </div>
                         </div>
+                        {% endfor %}
+
+
                     {% endfor %}
                 </div>
             </div>
