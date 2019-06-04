@@ -1,12 +1,16 @@
 ﻿- title: "Switch rates for orthogonally-oriented kinetic-depth displays are correlated across observers"
   journal: Journal of Vision
-  year: 3000
+  year: 2019
+  volume: 19
+  issue: 6
+  pages: 1, 1-13
   authors:
     - Alexander Pastukhov
     - Philipp Kastrup
     - Isabel Friederike Abs
     - Christian-Claus Carbon
-  pdf: Pastukhov, Kastrup, Abs, Carbon - 2019 - Switch rates for orthogonally-oriented kinetic-depth displays are correlated across observers.pdf
+  pdf: Pastukhov et al. - 2019 - Switch rates for orthogonally oriented kinetic-depth displays are correlated across observers.pdf
+  doi: 10.1167/19.6.1
   osf: https://osf.io/t2p5q/
   
 - title: "Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion objects"
