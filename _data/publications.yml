@@ -1,4 +1,15 @@
-﻿- title: "Switch rates for orthogonally-oriented kinetic-depth displays are correlated across observers"
+﻿- title: "Shape specificity of neural persistence for the kinetic-depth effect matches perceptual adaptation but not sensory memory"
+  journal: Attention, Perception, & Psychophysics
+  year: 2020
+  authors:
+    - Alexander Pastukhov
+    - Kristina Burkel
+    - Christian-Claus Carbon
+  pdf: Pastukhov, Burkel, Carbon - 2020 - Shape specificity of neural persistence.pdf
+  doi: 10.3758/s13414-019-01954-7
+  osf: https://osf.io/cdtfr/
+
+- title: "Switch rates for orthogonally-oriented kinetic-depth displays are correlated across observers"
   journal: Journal of Vision
   year: 2019
   volume: 19
