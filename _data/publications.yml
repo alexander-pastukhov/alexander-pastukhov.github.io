@@ -9,6 +9,8 @@
     - Alexander Pastukhov
     - Christian-Claus Carbon
   doi: 10.1177/2041669521994597
+  abstract: >
+    Sometimes, we do not notice big changes in our environment, if these changes occur while we perform eye movements or external events interrupt our perception. This striking phenomenon is known as “change blindness.” Research on chimpanzees, macaques, and pigeons suggests that change blindness may not be unique to humans, but our understanding is limited by the difficulty of carrying out change blindness experiments in animals. However, let’s have a look to the habitats of some of our most beloved four-legged friends: cats and dogs. Here, we list several online videos with cats and a husky appear to use humans’ change blindness to their advantage to sneak upon them. Thus, we might be able to deduce the effects of change blindness and other perceptual phenomena from animals’ behaviour. Our clear message: Watch more (cat) videos! Watch them as perceptual scientists by means of observing and analysing the cat’s behaviour.
 
 - title: "Social Value Orientation, Subjective Effectiveness, Perceived Cost, and the Use of Protective Measures During the COVID-19 Pandemic in Germany."
   journal: Comprehensive Results in Social Psychology
@@ -20,6 +22,8 @@
     - Astrid Schütz
   doi: 10.1080/23743603.2020.1828850
   osf: https://osf.io/8faeb/
+  abstract: > 
+    We investigated the influence of perceived protective value for the public, perceived self-protective value, and perceived cost of the behavior on the adoption of protective behavior during the COVID-19 pandemic. In a pilot study conducted when the lockdown was put in place in Germany, we investigated perceptions of the protective value and use of various protective behavioral measures against COVID-19. Although our sample (German general public, N = 419; age = 38.07, SD = 15.67; women = 71.1% [diverse = 0.5%]; students = 34.37%) consisted mostly of prosocially oriented individuals, we found that, above all, participants used protective measures that offered self-protection. In a second study conducted after the lock down in Germany had been lifted, which used a similar sample (German general public, N = 253; age = 42.53, SD = 16.03; women = 69.8% [diverse = 0.4%]; students = 24.10%), we observed the same results even after people had adapted to the threat. In addition, the second study showed a negative relationship between the perceived costs of a behavior and the frequency of its use. The two studies suggest that the use of protective measures during the COVID-19 pandemic is based on a cost-benefit perception. We conclude that health communication should focus on the perceived self-protective value of certain behaviors but should simultaneously emphasize their relatively low cost.
 
 - title: "Sharing with a Stranger: People Are More Generous with Time than Money."
   journal: Comprehensive Results in Social Psychology
@@ -31,6 +35,8 @@
     - Astrid Schütz
   doi: 10.1080/23743603.2020.1831377
   osf: https://osf.io/cu7kw/
+  abstract: >
+    With the present study, we tested whether generosity changes dependent on money or time being shared. During the experiment, participants N = 371 (MAge = 37.5 years, 38.8% female) completed questionnaires measuring social value orientation, moral identity centrality, and honesty-humility. The opportunity cost of time spent on a real effort task was measured with an incentivized method. Then, participants played two versions of a dictator game: either in a standard dictator game, where participants could share payoffs from the real effort task; or in a time dictator game, where participants decided how long they want to work for another participant’s payoff. We tested three hypotheses. (a) Time and money are not equivalent, and participants are more generous with time than with money. (b) Giving time results in higher positive affect than giving money. (c) Participants’ social value orientation, moral identity centrality, and honesty-humility explain the difference between the donations of time and money, and personality traits will have a stronger impact on time decisions than on monetary decisions. We found that approximately 50% of participants were more generous when giving time, this effect was not dependent on the opportunity cost of time. We think that our experiment is the first experiment to unambiguously show this effect. Furthermore, generosity was not related to positive affect and we found no moderating effect of personality traits.
 
 - title: "Shape specificity of neural persistence for the kinetic-depth effect matches perceptual adaptation but not sensory memory"
   journal: Attention, Perception, & Psychophysics
@@ -42,6 +48,8 @@
   pdf: Pastukhov, Burkel, Carbon - 2020 - Shape specificity of neural persistence.pdf
   doi: 10.3758/s13414-019-01954-7
   osf: https://osf.io/cdtfr/
+  abstract: >
+    When multistable displays—stimuli that are compatible with several comparably likely perceptual interpretations—are presented intermittently, the perceptual state at the stimulus onset shows a complex dependence on the duration of the preceding blank interval. Specifically, perception is maximally destabilized for interruptions that are approximately 500 ms long, but it is stabilized by the use of shorter or longer blank intervals. This nonmonotonic dependence of perceptual stability on the blank interval duration raises questions about a number of history effects that are involved and about their nature, including the underlying neural representations. One way to characterize history effects is by looking at their specificity to the change of display properties. Here we measured the shape specificity for perception of the kinetic-depth effect when interruptions were brief (50 ms). For this time interval, perception is thought to be stabilized by neural persistence, a lingering trace of the prior neural activity. We found that perceptual stability depended on the shapes of the objects presented both before and after the break, but not on the similarity between the objects. These results matched earlier reports of the shape specificity of neural adaptation (destabilizing aftereffect for blanks 200–800 ms long). However, our results were markedly different from the shape specificity of sensory memory of multistable perception (a stabilizing effect for blanks > 800–1,000 ms). We concluded that whereas neural persistence and adaptation both act on the same motion-selective neural representation, sensory memory depends on another, possibly partially overlapping, shape-selective neural ensemble.
 
 - title: "Switch rates for orthogonally-oriented kinetic-depth displays are correlated across observers"
   journal: Journal of Vision
@@ -57,6 +65,8 @@
   pdf: Pastukhov et al. - 2019 - Switch rates for orthogonally oriented kinetic-depth displays are correlated across observers.pdf
   doi: 10.1167/19.6.1
   osf: https://osf.io/t2p5q/
+  abstract: >
+    When continuously viewing multistable displays, which are compatible with several comparably likely interpretations, perception perpetually switches between available alternatives. Prior studies typically report the lack of consistent individual switch rates across different displays. However, this comparison is based on an assumption that neural representations of physically identical displays are consistent across observers. Yet, given how different individuals are already at the level of the retina, it is likely that the difference in other relevant factors might mask the correlation. To address this issue, we compared switch rates in two kinetic-depth displays (KDE) that rotated around orthogonal axes (458 counterclockwise vs. 458 clockwise relative to the vertical). This ensured that dynamics of multistable perception was based on highly similar, but different and independent neural representations. We also included a Necker cube (NC) display as a control. We report that switch rates were correlated between two kinetic-depth effect displays, but not between either of the KDE and NC displays. This demonstrates that the usual lack of correlation may not be evidence for the lack of a shared pacesetter mechanism of multistable perception, but reflect other factors, such as differently modulated inputs to competing representations. In addition, we asked participants to speed-up or slow-down perceptual alternations and found that only the former ability was correlated across different displays. This indicates that these two types of volitional control may differ in their use of attentional resources.
   
 - title: "Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion objects"
   journal: Journal of Vision
@@ -74,6 +84,8 @@
     - Stepan Aleshin
     - Jochen Braun
     - Christian-Claus Carbon
+  abstract: >
+    Abstract When two bi-stable structure-from-motion (SFM) spheres are presented simultaneously, they tend to rotate in the same direction. This effect reflects a common state bias that is present for various multistable displays. However, it was also reported that when two spheres are positioned so that they touch each other, they tend to counterrotate instead. The latter effect is interpreted as a frictional interaction, indicating the influence of the embedded physics on our visual perception. Here, we examined the interplay between these two biases in two experiments using a wide range of conditions. Those included two SFM shapes, two types of disambiguation cues, the presence or absence of the disambiguation cues, different layout options, and two samples of observers from two different universities (in sum 26 participants). Contrary to the prior report, we observed a robust common state bias for all conditions, including those that were optimized for frictional and “gear meshing” interactions. We found that stronger coupling of perceptual states is accompanied by more frequent synchronous perceptual reversals of the two objects. However, we found that the simultaneity of the individual switches does not predict the duration of the following dominance phase. Finally, we report that stronger perceptual coupling speeds up perceptual alternations.
 
 - title: "Reliable top-left light convention starts with Early Renaissance: An extensive approach comprising 10k artworks"
   journal: Frontiers in Psychology
@@ -88,6 +100,8 @@
   authors:
     - Christian-Claus Carbon
     - Alexander Pastukhov
+  abstract: >
+    Art history claims that Western art shows light from the top left, which has been repeatedly shown with narrow image sets and simplistic research methods. Here we employed a set of 10,000 pictures for which participants estimated the direction of light plus their confidence of estimation. From 1420 A.D., the onset of Early Renaissance, until 1900 A.D., we revealed a clear preference for painting light from the top left—within the same period, we observed the highest confidence in such estimations of the light source.
 
 - title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
   year: 2018
@@ -103,6 +117,8 @@
     - Alexander Pastukhov
     - Johanna Prasch
     - Christian-Claus Carbon
+  abstract: >
+    Our brain constantly tries to anticipate the future by using a variety of memory mechanisms. Interestingly, studies using the intermittent presentation of multistable displays have shown little perceptual persistence for interruptions longer than a few hundred milliseconds. Here we examined whether we can facilitate the perceptual stability of bistable displays following a period of invisibility by employing a physically plausible and ecologically valid occlusion event sequence, as opposed to the typical intermittent presentation, with sudden onsets and offsets. To this end, we presented a bistable rotating structure-from-motion display that was moving along a linear horizontal trajectory on the screen and either was temporarily occluded by another object (a cardboard strip in Exp. 1, a computer-generated image in Exp. 2) or became invisible due to eye closure (Exp. 3). We report that a bistable rotation direction reliably persisted following occlusion or interruption only (1) if the pre- and postinterruption locations overlapped spatially (an occluder with apertures in Exp. 2 or brief, spontaneous blinks in Exp. 3) or (2) if an object’s size allowed for the efficient grouping of dots on both sides of the occluding object (large objects in Exp. 1). In contrast, we observed no persistence whenever the pre- and postinterruption locations were nonoverlapping (large solid occluding objects in Exps. 1 and 2 and long, prompted blinks in Exp. 3). We report that the bistable rotation direction of a moving object persisted only for spatially overlapping neural representations, and that persistence was not facilitated by a physically plausible and ecologically valid occlusion event.
 
 - title: "The Bamberg Trucking Game: A Paradigm for Assessing the Detection of Win-Win Solutions in a Potential Conflict Scenario"
   year: 2018
@@ -117,6 +133,8 @@
     - Dario Nalis
     - Alexander Pastukhov
   doi: 10.3389/fpsyg.2018.00138
+  abstract: >
+    In win–win solutions, all parties benefit more from the solution than they would if they each pursued their own individual goals. Such solutions are beneficial at individual and collective levels and thus represent optimal solutions. Win–win solutions are desirable but often difficult to find. To allow the study of individual differences and situational factors that help or hinder the detection of win–win solutions, we created a paradigm that fills a gap in the repertoire of psychological instruments used to assess collaboration, cooperation, negotiation, and prosocial behavior. The new paradigm differs from previous ones in two aspects: (a) In existing paradigms that focus on social motivation, possible strategies are evident, whereas we focused here on the question of whether people can detect the solution and thus disentangle ability from motivation, (b) Paradigms that focus on cooperation typically entail a risk associated with the partner’s defection, whereas cooperation in our paradigm is not associated with risk. We adjusted the Trucking Game—a method for assessing bargaining—to include a situation in which two parties can help each other achieve their respective goals and thus benefit over and above the pursuit of individual goals or compromising. We tested scenario-based and interaction-based versions with samples of 154 and 112 participants, respectively. Almost one third of the participants or dyads found the win–win solution. General mental abilities were not related to detecting the win–win solution in either version. The paradigm provides a way to extend research on cooperation and conflict and can thus be useful for research and training.
 
 - title: "Extrinsic grouping factors in motion-induced blindness"
   journal: PLOS ONE
@@ -131,6 +149,8 @@
   authors:
     - Dina Devyatko
     - Alexander Pastukhov
+  abstract: >
+    We investigated how various grouping factors altered subjective disappearances of the individual targets in the motion-induced blindness display. The latter relies on a moving mask to render highly salient static targets temporarily subjectively invisible. Specifically, we employed two extrinsic grouping factors, the connectedness and the common region, and examined whether their presence would make targets more resilient against the suppression. In addition, we investigated whether the presence of an illusory Kanizsa triangle would affect the suppression of the inducing Pac-Man elements. We quantified the perceptual dynamics using the proportion of the disappearance time (this indicates whether targets became more resilient against the suppression), and the proportion of simultaneous disappearance and reappearance events (characterizes the tendency for the targets to disappear or reappear as a group). We report that a single mask that encompassed all targets (a common region grouping) significantly increased the proportion of simultaneous disappearance and reappearance events, but had no effect on the proportion of the disappearance time. In contrast, a line that connected two targets significantly decreased the total invisibility time, but had no impact on the simultaneity of the disappearance and reappearance events. We found no statistically significant effect of the presence of the illusory Kanizsa triangle on either measure. Finally, we found no interaction either between the common region and the connectedness or between the common region and the presence of the illusory Kanizsa triangle. Our results indicate that extrinsic grouping factors might influence the perception differently than the intrinsic ones and highlight the importance of using several measures to characterize the perceptual dynamics, as various grouping factors might affect it differentially
 
 - title: "Perceptual reversals need no prompting by attention"
   year: 2007
@@ -144,6 +164,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    Many ambiguous patterns elicit spontaneous alternations of phenomenal appearance. Attention is known to influence these phenomenal reversals, as do several other factors. We asked whether a shift of attention individually prompts each reversal of phenomenal appearance. By combining intermittent presentation with a proven method of attention control, we monitored phenomenal alternations in the complete absence of attention shifts. We found that reversals become less frequent but continue even when observers neither report on nor shift attention to an ambiguous pattern. The statistical variability of reversals remains unaffected. We conclude that reversals of phenomenal appearance are not prompted externally by attention shifts, but internally by an intrinsic instability of the neural representation of ambiguous patterns.
 
 - title: "A short-term memory of multi-stable perception"
   year: 2008
@@ -157,6 +179,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    It is well known that pauses in the presentation of an ambiguous display may stabilize its perceptual appearance. Here we show that this stabilization depends on an extended history spanning several dominance periods, not merely on the most recent period. Specifically, appearance after a pause often reflects less recent (but longer) dominance periods rather than more recent (but shorter) periods. Our results imply the existence of a short-tem memory for perceptual appearance that builds up over seconds, decays over minutes, and is robust to perceptual reversals. Although this memory is most evident in paused displays, it influences perceptual reversals also when display presentation continues: while the memory of one appearance prevails over that of the other, successive dominance durations are positively correlated. This highly unusual successive dependence suggests that multi-stable perception is not the memory-less 'renewal process' as which it has long been regarded. Instead, a short-term memory of appearance must be added to the multiple processes that jointly produce reversals of perceptual appearance.
     
 - layout: publication
   title: "Visual attention is a single, integrated resource"
@@ -172,6 +196,8 @@
     - Alexander Pastukhov
     - Laura Fischer
     - Jochen Braun
+  abstract: >
+    Recent evidence for separate forms of attention for different visual attributes seems to conflict with Duncan's "integrated competition" theory of visual attention. To resolve this conflict, we established attention-operating characteristics for four pairs of visual discriminations. While one task was common to every pair, the other tasks were different and concerned different visual attributes. In all pairs, the common task exhibited the same performance-resource function, whether the other tasks involved entirely similar, partially similar, or entirely dissimilar visual attributes. These results confirm that visual attention conforms exactly to the predictions of a single, integrated resource.
         
 
 - title: "No Stopping and No Slowing: Removing Visual Attention with No Effect on Reversals of Phenomenal Appearance"
@@ -186,6 +212,8 @@
     - Alexander Pastukhov
     - Victoria Vonau
     - Jochen Braun
+  abstract: >
+    We investigated whether visual selective attention contributes to the reversals of phenomenal appearance that characterize multi-stable displays. We employed a rotating-ring display that reverses appearance only at certain phases of its rotation (i.e., when in full-frontal view). During this critical window of time, observers were required to perform a shape discrimination task, thus diverting attention from the rotating ring. Our results showed that perceptual reversals were neither stopped nor slowed by this manipulation. In contrast, interrupting the display during the critical times increased the frequency of perceptual alternations significantly. Our results go beyond earlier findings that sustained withdrawal of attention slows, but does not stop, perceptual reversals. Accordingly, the available evidence strongly suggests that visual selective attention plays no causal role in multi-stable perception.
             
 
 - title: "Rare but precious: Microsaccades are highly informative about attentional allocation"
@@ -200,6 +228,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    To clarify the relation between attention and microsaccades, we monitored microsaccades while observers performed tasks with different attentional demand. In four high-demand conditions, observers shifted attention covertly to a peripheral location, or focused attention at fixation. Three corresponding low-demand conditions on physically identical displays provided a basis for comparison. Our results revealed two distinct effects of attentional load: higher loads were associated consistently with lower microsaccade rates, but also with increased directional selectivity (up to 98% congruent). In short, when microsaccades were most rare, the direction of microsaccades proved most informative about the location of the attention focus. The detailed time-courses of the two effects differed, however, suggesting that they may reflect independent processes.
 
 - title: "Increased readiness for adaptation and faster alternation rates under binocular rivalry in children."
   year: 2011
@@ -217,6 +247,8 @@
     - Alexander Pastukhov
     - Jochen Braun
     - Ilona Kovacs
+  abstract: >
+    Binocular rivalry in childhood has been poorly investigated in the past. Information is scarce with respect to infancy, and there is a complete lack of data on the development of binocular rivalry beyond the first 5-6 years of age. In this study, we are attempting to fill this gap by investigating the developmental trends in binocular rivalry in pre-puberty. We employ a classic behavioral paradigm with orthogonal gratings, and introduce novel statistical measures (after Pastukhov and Braun) to analyze the data. These novel measures provide a sensitive tool to estimate the impact of the history of perceptual dominance on future alternations. We found that the cumulative history of perceptual alternations has an impact on future percepts, and that this impact is significantly stronger and faster in children than in adults. Assessment of the "cumulative history" and its characteristic time-constant helps us to take a look at the adaptive states of the visual system under multi-stable perception, and brings us closer to establishing a possible developmental scenario of binocular rivalry: a greater and faster relative contribution of neural adaptation is found in children, and this increased readiness for adaption seems to be associated with faster alternation rates.
                 
 - title: "Cumulative history quantifies the role of neural adaptation in multistable perception"
   year: 2011
@@ -230,6 +262,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    Neural adaptation plays an important role in multistable perception, but its effects are difficult to discern in sequences of perceptual reversals. Investigating the multistable appearance of kinetic depth and binocular rivalry displays, we introduce cumulative history as a novel statistical measure of adaptive state. We show that cumulative history-an integral of past perceptual states, weighted toward the most recent states-significantly and consistently correlates with future dominance durations: the larger the cumulative history measure, the shorter are future dominance times, revealing a robust effect of neural adaptation. The characteristic time scale of cumulative history, which may be computed by Monte Carlo methods, correlates with average dominance durations, as expected for a measure of neural adaptation. When the cumulative histories of two competing percepts are balanced, perceptual reversals take longer and their outcome becomes random, demonstrating that perceptual reversals are fluctuation-driven in the absence of adaptational bias. Our findings quantify the role of neural adaptation in multistable perception, which accounts for approximately 10% of the variability of reversal timing.
 
 - title: "The Role of Attention in Ambiguous Reversals of Structure-From-Motion"
   year: 2012
@@ -244,6 +278,8 @@
     - Solveiga Stonkute
     - Jochen Braun
     - Alexander Pastukhov
+  abstract: >
+    Multiple dots moving independently back and forth on a flat screen induce a compelling illusion of a sphere rotating in depth (structure-from-motion). If all dots simultaneously reverse their direction of motion, two perceptual outcomes are possible: either the illusory rotation reverses as well (and the illusory depth of each dot is maintained), or the illusory rotation is maintained (but the illusory depth of each dot reverses). We investigated the role of attention in these ambiguous reversals. Greater availability of attention--as manipulated with a concurrent task or inferred from eye movement statistics--shifted the balance in favor of reversing illusory rotation (rather than depth). On the other hand, volitional control over illusory reversals was limited and did not depend on tracking individual dots during the direction reversal. Finally, display properties strongly influenced ambiguous reversals. Any asymmetries between 'front' and 'back' surfaces--created either on purpose by coloring or accidentally by random dot placement--also shifted the balance in favor of reversing illusory rotation (rather than depth). We conclude that the outcome of ambiguous reversals depends on attention, specifically on attention to the illusory sphere and its surface irregularities, but not on attentive tracking of individual surface dots.
 
 - title: "Believable change: Bistable reversals are governed by physical plausibility"
   year: 2012
@@ -258,6 +294,8 @@
     - Alexander Pastukhov
     - Victoria Vonau
     - Jochen Braun
+  abstract: >
+    Planar motion flows can induce the illusory appearance of a volume rotating in depth ("depth from motion"; G. Sperling, & B. A. Dosher 1994). This appearance changes spontaneously from time to time, reversing simultaneously its depth and its direction of rotation. We investigated asymmetric illusory volumes, which reverse more frequently at some angles of view than at others. In three experiments, we studied spontaneous joint reversals of depth and motion, as well as induced reversals of either motion or depth alone. We find that depth reversals occur exclusively when the illusory volume is depth symmetric (so that the shape of the volume remains unchanged). In contrast, motion reversals occur at all view angles, but their frequency varies with the motion speed. The probability of joint reversals is well approximated by the product of the individual reversal probabilities, suggestive of two independent random processes. We hypothesize that reversals of illusory volumes are conditioned by prior experience of physical transformations in the visual world.
 
 - title: "Multi-stable perception balances stability and sensitivity"
   year: 2013
@@ -275,6 +313,8 @@
     - Antoni Guillamon
     - Gustavo Deco
     - Jochen Braun
+  abstract: >
+    We report that multi-stable perception operates in a consistent, dynamical regime, balancing the conflicting goals of stability and sensitivity. When a multi-stable visual display is viewed continuously, its phenomenal appearance reverses spontaneously at irregular intervals. We characterized the perceptual dynamics of individual observers in terms of four statistical measures: the distribution of dominance times (mean and variance) and the novel, subtle dependence on prior history (correlation and time-constant). The dynamics of multi-stable perception is known to reflect several stabilizing and destabilizing factors. Phenomenologically, its main aspects are captured by a simplistic computational model with competition, adaptation, and noise. We identified small parameter volumes (~3% of the possible volume) in which the model reproduced both dominance distribution and history-dependence of each observer. For 21 of 24 data sets, the identified volumes clustered tightly (~15% of the possible volume), revealing a consistent "operating regime" of multi-stable perception. The "operating regime" turned out to be marginally stable or, equivalently, near the brink of an oscillatory instability. The chance probability of the observed clustering was <0.02. To understand the functional significance of this empirical "operating regime," we compared it to the theoretical "sweet spot" of the model. We computed this "sweet spot" as the intersection of the parameter volumes in which the model produced stable perceptual outcomes and in which it was sensitive to input modulations. Remarkably, the empirical "operating regime" proved to be largely coextensive with the theoretical "sweet spot." This demonstrated that perceptual dynamics was not merely consistent but also functionally optimized (in that it balances stability with sensitivity). Our results imply that multi-stable perception is not a laboratory curiosity, but reflects a functional optimization of perceptual dynamics for visual inference.
 
 - title: "Sensory memory of structure-from-motion is shape-specific"
   year: 2013
@@ -289,6 +329,8 @@
     - Alexander Pastukhov
     - Jana Füllekrug
     - Jochen Braun
+  abstract: >
+    Perceptual priming can stabilize the phenomenal appearance of multistable visual displays (Leopold, Wilke, Maier, & Logothetis, Nature Neuroscience, 5, 605-609, 2002). Prior exposure to such displays induces a sensory memory of their appearance, which persists over long intervals and intervening stimulation, and which facilitates renewed perception of the same appearance. Here, we investigated perceptual priming for the apparent rotation in depth of ambiguous structure-from-motion (SFM) displays. Specifically, we generated SFM objects with different three-dimensional shapes and presented them in random order and with intervening blank periods. To assess perceptual priming, we established the probability that a perceived direction of rotation would persist between successive objects. In general, persistence was greatest between identical objects, intermediate between similar objects, and negligible between dissimilar objects. These results demonstrate unequivocally that sensory memory for apparent rotation is specific to three-dimensional shape, contrary to previous reports (e.g., Maier, Wilke, Logothetis, & Leopold, Current Biology, 13, 1076-1085, 2003). Because persistence did not depend on presentation order for any pair of objects, it provides a commutative measure for the similarity of object shapes. However, it is not clear exactly which features or aspects of object shape determine similarity. At least, we did not find simple, low-level features (such as volume overlap, heterogeneity, or rotational symmetry) that could have accounted for all observations. Accordingly, it seems that sensory memory of SFM (which underlies priming of ambiguous rotation) engages higher-level representations of object surface and shape.
 
 - title: "Spatial and temporal attention revealed by microsaccades"
   year: 2013
@@ -304,6 +346,8 @@
     - Victoria Vonau
     - Solveiga Stonkute
     - Jochen Braun
+  abstract: >
+    We compared the spatial and temporal allocation of attention as revealed by microsaccades. Observers viewed several concurrent "rapid serial visual presentation" (RSVP) streams in the periphery while maintaining fixation. They continually attended to, and discriminated targets in one particular, cued stream. Over and above this continuous allocation, spatial attention transients ("attention shifts") were prompted by changes in the cued stream location and temporal attention transients ("attentional blinks") by successful target discriminations. Note that the RSVP paradigm avoided the preparatory suppression of microsaccades in anticipation of stimulus or task events, which had been prominent in earlier studies. Both stream changes and target discriminations evoked residual modulations of microsaccade rate and direction, which were consistent with the presumed attentional dynamics in each case (i.e., attention shift and attentional blink, respectively). Interestingly, even microsaccades associated with neither stream change nor target discrimination reflected the continuous allocation of attention, inasmuch as their direction was aligned with the meridian of the target stream. We conclude that attentional allocation shapes microsaccadic activity continuously, not merely during dynamic episodes such as attentional shifts or blinks.
 
 - title: "Structure-from-motion: dissociating perception, neural persistence, and sensory memory of illusory depth and illusory rotation"
   year: 2013
@@ -317,6 +361,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    In the structure-from-motion paradigm, physical motion on a screen produces the vivid illusion of an object rotating in depth. Here, we show how to dissociate illusory depth and illusory rotation in a structure-from-motion stimulus using a rotationally asymmetric shape and reversals of physical motion. Reversals of physical motion create a conflict between the original illusory states and the new physical motion: Either illusory depth remains constant and illusory rotation reverses, or illusory rotation stays the same and illusory depth reverses. When physical motion reverses after the interruption in presentation, we find that illusory rotation tends to remain constant for long blank durations (T (blank) ≥ 0.5 s), but illusory depth is stabilized if interruptions are short (T (blank) ≤ 0.1 s). The stability of illusory depth over brief interruptions is consistent with the effect of neural persistence. When this is curtailed using a mask, stability of ambiguous vision (for either illusory depth or illusory rotation) is disrupted. We also examined the selectivity of the neural persistence of illusory depth. We found that it relies on a static representation of an interpolated illusory object, since changes to low-level display properties had little detrimental effect. We discuss our findings with respect to other types of history dependence in multistable displays (sensory stabilization memory, neural fatigue, etc.). Our results suggest that when brief interruptions are used during the presentation of multistable displays, switches in perception are likely to rely on the same neural mechanisms as spontaneous switches, rather than switches due to the initial percept choice at the stimulus onset.
 
 - title: "Disparate time-courses of adaptation and facilitation in multi-stable perception"
   year: 2013
@@ -330,6 +376,8 @@
   authors:
     - Alexander Pastukhov
     - Jochen Braun
+  abstract: >
+    Far from being “memoryless”, the phenomenal appearance of an ambiguous display depends in complex ways on the recent history of similar perceptions. Given several possible appearances, the continued dominance of one appearance mitigates against its renewed dominance at a later time. This “negative priming" effect is likely caused by neural adaptation. At the same time, continued dominance of one appearance mitigates it in favor of its renewed dominance when stimulation resumes after an interruption. This “positive priming” effect may reflect some kind of neural facilitation. We have used a multi-stable, kinetic depth display to disentangle these positive and negative priming effects. We report that negative priming builds up and decays in seconds, whereas positive priming builds up in seconds and decays in minutes. Moreover, unambiguous displays induce negative, but not positive, priming. This difference, together with their disparate time-courses of recovery, render the two effects cleanly dissociable.
 
 - title: "Sensory memory of illusory depth in structure-from-motion."
   year: 2014
@@ -345,6 +393,8 @@
     - Anna Lissner
     - Jana Füllekrug
     - Jochen Braun
+  abstract: >
+    When multistable displays (stimuli consistent with two or more equally plausible perceptual interpretations) are presented intermittently, their perceptions are stabilized by sensory memory. Independent memory traces are generated not only for different types of multistable displays (Maier, Wilke, Logothetis, & Leopold, Current Biology 13:1076-1085, 2003), but also for different ambiguous features of binocular rivalry (Pearson & Clifford, Journal of Vision 4:196-202, 2004). In the present study, we examined whether a similar independence of sensory memories is observed in structure-from-motion (SFM), a multistable display with two ambiguous properties. In SFM, a 2-D planar motion creates a vivid impression of a rotating 3-D volume. Both the illusory rotation and illusory depth (i.e., how close parts of an object appear to the observer) of an SFM object are ambiguous. We dissociated the sensory memories of these two ambiguous properties by using an intermittent presentation in combination with a forced-ambiguous-switch paradigm (Pastukhov, Vonau, & Braun, PLoS ONE 7:e37734, 2012). We demonstrated that the illusory depth of SFM generates a sensory memory trace that is independent from that of illusory rotation. Despite this independence, the specificities levels of the sensory memories were identical for illusory depth and illusory rotation. The history effect was weakened by a change in the volumetric property of a shape (whether it was a hollow band or a filled drum volume), but not by changes in color or size. We discuss how these new results constrain models of sensory memory and SFM processing.
 
 - title: "Perceptual adaptation to structure-from-motion depends on the size of adaptor and probe objects, but not on the similarity of their shapes"
   year: 2014
@@ -359,6 +409,8 @@
     - Alexander Pastukhov
     - Anna Lissner
     - Jochen Braun
+  abstract: >
+    Perceptual adaptation destabilizes the phenomenal appearance of multistable visual displays. Prolonged dominance of a perceptual state fatigues the associated neural population, lowering the likelihood of renewed perception of the same appearance (Nawrot & Blake in Perception & Psychophysics, 49, 230-44, 1991). Here, we used a selective adaptation paradigm to investigate perceptual adaptation for the illusory rotation of ambiguous structure-from-motion (SFM) displays. Specifically, we generated SFM objects with different three-dimensional shapes and presented them in random order, separating successive objects by brief blank periods, which included a mask. To assess the specificity of perceptual adaptation to the shape of SFM objects, we established the probability that a perceived direction of rotation persisted between successive objects of similar or dissimilar shape. We found that the strength of negative aftereffects depended on the volume, but not the shape, of adaptor and probe objects. More voluminous objects were both more effective as adaptor objects and more sensitive as probe objects. Surprisingly, we found these volume effects to be completely independent, since any relationship between two shapes (such as overlap between volumes, similarity of shape, or similarity of velocity profiles) failed to modulate the negative aftereffect. This pattern of results was the opposite of that observed for sensory memory of SFM objects, which reflects similarity between objects, but not volume of individual objects (Pastukhov et al. in Attention, Perception & Psychophysics, 75, 1215-1229, 2013). The disparate specificities of perceptual adaptation and sensory memory for identical SFM objects suggest that the two aftereffects engage distinct neural representations, consistent with recent brain imaging results (Schwiedrzik et al. in Cerebral Cortex, 2012).
 
 - title: "Transformation priming helps to disambiguate sudden changes of sensory inputs"
   year: 2015
@@ -372,6 +424,8 @@
     - Alexander Pastukhov
     - Solveiga Vivian-Griffiths
     - Jochen Braun
+  abstract: >
+    Retinal input is riddled with abrupt transients due to self-motion, changes in illumination, object-motion, etc. Our visual system must correctly interpret each of these changes to keep visual perception consistent and sensitive. This poses an enormous challenge, as many transients are highly ambiguous in that they are consistent with many alternative physical transformations. Here we investigated inter-trial effects in three situations with sudden and ambiguous transients, each presenting two alternative appearances (rotation-reversing structure-from-motion, polarity-reversing shape-from-shading, and streaming-bouncing object collisions). In every situation, we observed priming of transformations as the outcome perceived in earlier trials tended to repeat in subsequent trials and this repetition was contingent on perceptual experience. The observed priming was specific to transformations and did not originate in priming of perceptual states preceding a transient. Moreover, transformation priming was independent of attention and specific to low level stimulus attributes. In summary, we show how “transformation priors” and experience-driven updating of such priors helps to disambiguate sudden changes of sensory inputs. We discuss how dynamic transformation priors can be instantiated as “transition energies” in an “energy landscape” model of the visual perception.
 
 - title: "Collective Activity of Many Bistable Assemblies Reproduces Characteristic Dynamics of Multistable Perception"
   year: 2016
@@ -387,6 +441,8 @@
     - Alexander Pastukhov
     - Mattia Maurizio
     - Jochen Braun
+  abstract: >
+    The timing of perceptual decisions depends on both deterministic and stochastic factors, as the gradual accumulation of sensory evidence (deterministic) is contaminated by sensory and/or internal noise (stochastic). When human observers view multistable visual displays, successive episodes of stochastic accumulation culminate in repeated reversals of visual appearance. Treating reversal timing as a “first-passage time” problem, we ask how the observed timing densities constrain the underlying stochastic accumulation. Importantly, mean reversal times (i.e., deterministic factors) differ enormously between displays/observers/stimulation levels, whereas the variance and skewness of reversal times (i.e., stochastic factors) keep characteristic proportions of the mean. What sort of stochastic process could reproduce this highly consistent “scaling property?” Here we show that the collective activity of a finite population of bistable units (i.e., a generalized Ehrenfest process) quantitatively reproduces all aspects of the scaling property of multistable phenomena, in contrast to other processes under consideration (Poisson, Wiener, or Ornstein-Uhlenbeck process). The postulated units express the spontaneous dynamics of attractor assemblies transitioning between distinct activity states. Plausible candidates are cortical columns, or clusters of columns, as they are preferentially connected and spontaneously explore a restricted repertoire of activity states. Our findings suggests that perceptual representations are granular, probabilistic, and operate far from equilibrium, thereby offering a suitable substrate for statistical inference.
 
 - title: "Exogenously triggered perceptual switches in multistable structure-from-motion occur in the absence of visual awareness"
   year: 2016
@@ -400,6 +456,8 @@
   authors:
     - Alexander Pastukhov
     - Jan-Nikolas Klanke
+  abstract: >
+    Here, we characterize the duration of exogenously triggered perceptual switches in an ambiguously rotating structure-from-motion display and demonstrate their independence on visual awareness. To this end, we triggered a perceptual reversal by inverting the on-screen motion and systematically varied the posttrigger presentation duration, while collecting observers' reports about the initial and final directions of illusory rotation. We demonstrate that for the structure-from-motion display, perceptual transitions are extremely brief (≤20 ms) and can be considered instantaneous from an experimental perspective. We also report that although very brief posttrigger intervals (10–20 ms) reliably initiate a perceptual reversal, observers become aware of perceptual switches only if the posttrigger presentation continues for at least 80 ms. Additional experiments demonstrated that an observed lack of visual awareness for brief posttrigger presentation intervals cannot be attributed to either a systematic delay of visual awareness or to backward masking. Our results show that exogenously triggered perceptual reversal can occur in the absence of visual awareness, extending earlier work on spontaneous reversals that indicated that neither awareness nor attention may be required for multistable perception. Methodologically, the brevity and the short latency of induced perceptual reversals make them particularly suitable for finely timed experiments, such as magneto/electroencephalography studies.
 
 - title: "Perception and the strongest sensory memory trace of multi-stable displays both form shortly after the stimulus onset"
   year: 2016
@@ -412,6 +470,8 @@
   pdf: Pastukhov - 2016 - Perception and the strongest sensory memory trace of multi-stable displays both form shortly after the stimulus onset.pdf
   authors:
     - Alexander Pastukhov
+  abstract: >
+    We investigated the relation between perception and sensory memory of multi-stable structure-from-motion displays. The latter is an implicit visual memory that reflects a recent history of perceptual dominance and influences only the initial perception of multi-stable displays. First, we established the earliest time point when the direction of an illusory rotation can be reversed after the display onset (29–114 ms). Because our display manipulation did not bias perception towards a specific direction of illusory rotation but only signaled the change in motion, this means that the perceptual dominance was established no later than 29–114 ms after the stimulus onset. Second, we used orientation-selectivity of sensory memory to establish which display orientation produced the strongest memory trace and when this orientation was presented during the preceding prime interval (80–140 ms). Surprisingly, both estimates point towards the time interval immediately after the display onset, indicating that both perception and sensory memory form at approximately the same time. This suggests a tighter integration between perception and sensory memory than previously thought, warrants a reconsideration of its role in visual perception, and indicates that sensory memory could be a unique behavioral correlate of the earlier perceptual inference that can be studied post hoc.
 
 - title: "First, you need a Gestalt: An interaction of bottom-up and top-down streams during the perception of the ambiguously rotating human walker"
   year: 2017
@@ -425,5 +485,7 @@
   pdf: Pastukhov - 2017 - First, you need a Gestalt An interaction of bottom-up and top-down streams during the perception of the ambiguously r.pdf
   authors:
     - Alexander Pastukhov
+  abstract: >
+    Our visual system combines sensory evidence with prior knowledge to produce a representation of an outside world. Here, we explored the limits of the feedforward computation using an ambiguously rotating human biological motion. Specifically, we investigated whether an overall rotation, which was added to all the displays used in the study, would be perceived when the point-light walker was presented upside-down, a condition that typically obliterates perception of a human Gestalt. We report that inversion of the point-light walker or the absence of an identifiable Gestalt abolished the perception of an overall rotation. Perception of rotation was restored if the human walker Gestalt could be identified (an upright walker), if observers were informed about the nature of the motion display, or if observers expected to see the rotation of an unknown dynamic object. This implies that a mathematically more complex human motion was accounted for before the remaining motion components could be used to infer an overall rotation. Our results indicate that the perceptual inference does not proceed in a hierarchical manner with the simpler components being identified first. Instead, prior knowledge acts as a starting point for the decomposition of an even relatively simple combination of two motions.
 
 
