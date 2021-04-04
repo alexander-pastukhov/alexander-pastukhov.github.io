@@ -1,0 +1,20 @@
+- title : Python for social and experimental psychology
+  description : >
+    A two-semester introductory course on programming and Python aimed at undergraduate psychology students. The aim is to learn how to program psychological experiments using Python and PsychoPy by writing computer games (because experiments are simply boring computer games). The course assumes no prior knowledge or programming skills. The first semester covers basics including conditional statements, lists, dictionaries and use of PsychoPy. The second semester covers topics such as classes, generators, NumPy and Pandas libraries, programming online experiments, etc. You will program classic games such as "Guess the Number", "Hunt the Wumpus", "Memory", "Snake", "Life", "Guitar Hero" etc.
+  url: https://alexander-pastukhov.github.io/python-for-experimental-psychology/
+
+- title : Data analysis using R for Psychology
+  description : >
+    An introductory course on how to use R to analyze a typical psychophysical and social psychology research data. The course will walk you through all the analysis stages from importing a raw data to compiling a nice looking final report that automatically incorporates all the figures and statistics. Although I will introduce base, the main focus is on using Tidyverse family of packages that make data wrangling easy.
+  url: https://alexander-pastukhov.github.io/data-analysis-using-r-for-psychology/
+
+- title : Notes on Statistical Rethinking
+  description: >
+    Currently, a haphazard collection of notes that aim to clarify or expand on topics mentioned but not fully explained in the "Statistical Rethinking" book by Richard McElreath. The topics include detailed explanation of information criteria, loss functions, (hidden) collider bias, DAGs, multicolliniarity, etc.
+  url: https://alexander-pastukhov.github.io/notes-on-statistical-rethinking/
+    
+- title : >
+    R-version of the code for "Linear Algebra: Theory, Intuition, Code" by Mike X Cohen
+  description : >
+    An R-version that tries to keep the code as close to the original as possible.
+  url: https://alexander-pastukhov.github.io/cohen-linear-algebra/

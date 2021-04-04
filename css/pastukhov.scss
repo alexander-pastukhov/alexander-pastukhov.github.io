@@ -1,14 +1,50 @@
 ---
 ---
 
-$color2:#0B554D;
-$light-green: #c2d4d2;
-$color1:#F39237;
-$light-orange: hsl(29, 87%, 76%);
+$dark1:#FFA101;
+$dark2:#31525B;
+$light1: #FAE6B1;
+$light2: #B3DEE5;
+
+canvas.dark2 {
+  background: $dark2;
+  background-color: $dark2;
+}
+
+div.padded {
+  padding-bottom: 2em; 
+  padding-top: 2em;
+}
+
+div.canvas-container {
+  height: 200px;
+  width: 240px;
+  background-color: $dark2;
+  border-radius: 10px;
+  border: 1px solid $dark2;
+  overflow: hidden;
+}
 
 body {
   font-family: 'Zilla Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+}
+
+td.publication {
+  font-size: 20px;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.card-abstract {
+  font-size: 16px;
 }
 
 ul,p {
@@ -20,24 +56,76 @@ li {
 p.small {
   font-size: 16px;
 }
-a,
+
+a {
+  color: $dark2;
+  outline: none;
+}
+
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: $color1;
+  color: $dark1;
   outline: none;
 }
 
+a.light2{
+  color: white;
+  outline: none;
+}
+
+a.light2:hover,
+a.light2:focus,
+a.light2:active,
+a.light2.active{
+  color: white;
+  outline: none;
+}
+
+.container-light1{
+  background-color: $light1;
+  color: $dark2;
+}
+
+.container-light2{
+  background-color: $light2;
+  color: $dark2;
+}
+
+hr.dark1 {
+  border: 1px solid $dark1;
+}
+
+
+hr.dark2 {
+  border: 1px solid $dark2;
+}
+
 a.dark{
-  color: $color2;
+  color: $dark2;
   outline: none;
 }
 
 p.publication-title {
-  color: $color2;
+  color: $dark2;
 }
 
+div.dark1{
+  color: $light1;
+  background-color: $dark1;
+}
+
+div.dark2{
+  color: white;
+  background-color: $dark2;
+}
+
+
+
+h2.dark1 {
+  color: $dark1;
+}
 
 h1,
 h2,
@@ -46,7 +134,6 @@ h4,
 h5,
 h6 {
   font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
 }
 hr.star-light,
@@ -72,23 +159,23 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: $color1;
+  background-color: $dark1;
   color: white;
 }
 hr.star-primary {
-  border-color: $color2;
+  border-color: $dark2;
 }
 hr.star-primary:after {
   background-color: white;
-  color: $color2;
+  color: $dark2;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: $color1;
-  color: white;
+  background: white;
+  color: $dark2;
 }
 header .container {
   padding-top: 100px;
@@ -121,78 +208,79 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-.navbar-custom {
-  background: $color2;
+
+.navbar-pastukhov {
+  background: $dark2;
   font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
-.navbar-custom a:focus {
+.navbar-pastukhov a:focus {
   outline: none;
 }
-.navbar-custom .navbar-brand {
+.navbar-pastukhov .navbar-brand {
   color: white;
 }
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-  color: white;
+.navbar-pastukhov .navbar-brand:hover,
+.navbar-pastukhov .navbar-brand:focus,
+.navbar-pastukhov .navbar-brand:active,
+.navbar-pastukhov .navbar-brand.active {
+  color: $light2;
 }
-.navbar-custom .navbar-nav {
+.navbar-pastukhov .navbar-nav {
   letter-spacing: 1px;
 }
-.navbar-custom .navbar-nav li a {
+.navbar-pastukhov .navbar-nav li a {
   color: white;
 }
-.navbar-custom .navbar-nav li a:hover {
-  color: $color1;
-  outline: none;
+.navbar-pastukhov .navbar-nav li a:hover {
+  color: $light2;
 }
-.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
+.navbar-pastukhov .navbar-nav li a:focus,
+.navbar-pastukhov .navbar-nav li a:active {
+  background-color: $dark2;
   color: white;
 }
-.navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: $color1;
+.navbar-pastukhov .navbar-nav li.active a {
+  color: $light2;
+  background-color: $dark2;
 }
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: $color1;
+.navbar-pastukhov .navbar-nav li.active a:hover,
+.navbar-pastukhov .navbar-nav li.active a:focus,
+.navbar-pastukhov .navbar-nav li.active a:active {
+  color: $dark2;
+  background-color: $light2;
 }
-.navbar-custom .navbar-toggle {
+.navbar-pastukhov .navbar-toggle {
   color: white;
   text-transform: uppercase;
   font-size: 10px;
   border-color: white;
 }
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: $color1;
+.navbar-pastukhov .navbar-toggle:hover,
+.navbar-pastukhov .navbar-toggle:focus {
+  background-color: $dark2;
   color: white;
-  border-color: $color1;
+  border-color: $dark2;
 }
 @media (min-width: 768px) {
-  .navbar-custom {
+  .navbar-pastukhov {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
+  .navbar-pastukhov .navbar-brand {
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-custom.affix {
+  .navbar-pastukhov.affix {
     padding: 10px 0;
   }
-  .navbar-custom.affix .navbar-brand {
+  .navbar-pastukhov.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
@@ -204,7 +292,7 @@ section h2 {
   font-size: 2em;
 }
 section.success {
-  background: $color1;
+  background: $dark1;
   color: white;
 }
 @media (max-width: 767px) {
@@ -307,7 +395,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: $color1;
+  color: $dark1;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -320,68 +408,71 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: $color2;
+  background-color: $dark2;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: $light-orange;
-  color: $color2;
+  background-color: $dark2;
+  color: $light2;
 }
 
 .btn-outline {
-  color: $color2;
+  color: $dark1;
   font-size: 20px;
-  border: solid 2px $light-orange;
-  background: transparent;
+  border: solid 2px $dark1;
+  background: $light1;
+  background-color: $light1;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
   color: black;
-  background: $light-orange;
-  border: solid 2px $color1;
+  background: $light1;
+  border: solid 2px $dark1;
 }
 
 .btn-dark {
-  border: solid 2px white;
-  color: white;
+  border: solid 2px $dark2;
+  background: white;
+  background-color: white;
+  color: $dark2;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active,
 .btn-dark.active {
-  color: $color1;
-  background: white;
-  border: solid 2px $color1;
+  color: white;
+  background: $dark2;
+  border: solid 2px white;
 }
 
 .btn-light {
-  color: black;
-  border: solid 2px black;
+  color: $dark1;
+  background: $light1;
+  border: solid 2px $dark1;
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active,
 .btn-light.active {
-  color: $color1;
-  background: white;
-  border: solid 2px $color1;
+  color: white;
+  background: $dark1;
+  border: solid 2px white;
 }
-
-
 
 .btn-primary {
   color: white;
-  background-color: $color2;
-  border-color: $color2;
+  background-color: $dark2;
+  border-color: $dark2;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -413,17 +504,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: $color2;
-  border-color: $color2;
+  background-color: $dark2;
+  border-color: $dark2;
 }
 .btn-primary .badge {
-  color: $color2;
+  color: $dark2;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: $color1;
-  border-color: $color1;
+  background-color: $dark1;
+  border-color: $dark1;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -455,18 +546,18 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: $color1;
-  border-color: $color1;
+  background-color: $dark1;
+  border-color: $dark1;
 }
 .btn-success .badge {
-  color: $color1;
+  color: $dark1;
   background-color: white;
 }
 .btn-round {
   display: inline-block;
   height: 50px;
   width: 50px;
-  // border: 2px solid $color1;
+  // border: 2px solid $dark1;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
@@ -532,7 +623,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: $color2;
+  background-color: $dark2;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -543,7 +634,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: $color2;
+  background-color: $dark2;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */

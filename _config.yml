@@ -14,7 +14,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://alexander-pastukhov.github.io" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-#twitter_username: SBootstrap
+twitter_username: PastukhovSasha
 github_username:  alexander-pastukhov
 #facebook_username: StartBootstrap
 #instagram_username: beyonce
