@@ -4,6 +4,7 @@
   description: >
     Package to calculate the bidimensional and tridimensional regression between two 2D/3D configurations. Uses Stan engine to provide posterior distribution of fits. Individual fits can be characterized via Bayesian R2 and compared via widely applicable information criteria (WAIC) or leave-one out cross-validation criteria (LOO).
   github: https://github.com/alexander-pastukhov/tridim-regression
+  CRAN : https://cran.r-project.org/package=TriDimRegression
 
 - title: eyelinkReader
   index: 2
