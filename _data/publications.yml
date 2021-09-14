@@ -12,6 +12,33 @@
   abstract: >
     Sometimes, we do not notice big changes in our environment, if these changes occur while we perform eye movements or external events interrupt our perception. This striking phenomenon is known as “change blindness.” Research on chimpanzees, macaques, and pigeons suggests that change blindness may not be unique to humans, but our understanding is limited by the difficulty of carrying out change blindness experiments in animals. However, let’s have a look to the habitats of some of our most beloved four-legged friends: cats and dogs. Here, we list several online videos with cats and a husky appear to use humans’ change blindness to their advantage to sneak upon them. Thus, we might be able to deduce the effects of change blindness and other perceptual phenomena from animals’ behaviour. Our clear message: Watch more (cat) videos! Watch them as perceptual scientists by means of observing and analysing the cat’s behaviour.
 
+- title: "Change not State: Perceptual coupling in multistable displays reflects transient bias induced by perceptual change"
+  journal: Psychonomic Bulletin & Review
+  year: 2021
+  pdf: Pastukhov, Carbon - 2021 - Change not State Perceptual coupling in multistable displays reflects transient bias induced by perceptual c.pdf
+  authors:
+    - Alexander Pastukhov
+    - Christian-Claus Carbon
+  doi: 10.3758/s13423-021-01960-7
+  osf: https://osf.io/bak6c
+  abstract: >
+    We investigated how changes in dynamic spatial context influence visual perception. Specifically, we reexamined the perceptual coupling phenomenon when two multistable displays viewed simultaneously tend to be in the same dominant state and switch in accord. Current models assume this interaction reflecting mutual bias produced by a dominant perceptual state. In contrast, we demonstrate that influence of spatial context is strongest when perception changes . First, we replicated earlier work using bistable kinetic-depth effect displays, then extended it by employing asynchronous presentation to show that perceptual coupling cannot be accounted for by the static context provided by perceptually dominant states . Next, we demonstrated that perceptual coupling reflects transient bias induced by perceptual change , both in ambiguous and disambiguated displays. We used a hierarchical Bayesian model to characterize its timing, demonstrating that the transient bias is induced 50–70 ms after the exogenous trigger event and decays within ~200–300 ms. Both endogenous and exogenous switches led to quantitatively and qualitatively similar perceptual consequences, activating similar perceptual reevaluation mechanisms within a spatial surround. We explain how they can be understood within a transient selective visual attention framework or using local lateral connections within sensory representations. We suggest that observed perceptual effects reflect general mechanisms of perceptual inference for dynamic visual scene perception.
+
+
+- title: "Clever Cats: Do They Utilize Change Blindness as a Covered Approaching Strategy?"
+  journal: i-Perception
+  year: 2021
+  volume : 12
+  issue: 1
+  pages: 204166952199459
+  pdf: Pastukhov, Carbon - 2021 - Clever Cats Do They Utilize Change Blindness as a Covered Approaching Strategy.pdf
+  authors:
+    - Alexander Pastukhov
+    - Christian-Claus Carbon
+  doi: 10.1177/2041669521994597
+  abstract: >
+    Sometimes, we do not notice big changes in our environment, if these changes occur while we perform eye movements or external events interrupt our perception. This striking phenomenon is known as “change blindness.” Research on chimpanzees, macaques, and pigeons suggests that change blindness may not be unique to humans, but our understanding is limited by the difficulty of carrying out change blindness experiments in animals. However, let’s have a look to the habitats of some of our most beloved four-legged friends: cats and dogs. Here, we list several online videos with cats and a husky appear to use humans’ change blindness to their advantage to sneak upon them. Thus, we might be able to deduce the effects of change blindness and other perceptual phenomena from animals’ behaviour. Our clear message: Watch more (cat) videos! Watch them as perceptual scientists by means of observing and analysing the cat’s behaviour.
+
 - title: "Social Value Orientation, Subjective Effectiveness, Perceived Cost, and the Use of Protective Measures During the COVID-19 Pandemic in Germany."
   journal: Comprehensive Results in Social Psychology
   year: 2020
