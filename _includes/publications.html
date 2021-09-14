@@ -1,30 +1,40 @@
 <!-- Publications Section -->
-    <section id="publications">
-        <div class="container">
-            <div class="row">
+    <section id="publications"  style="padding-top: 0%; padding-bottom: 0%;">
+            <div class="row dark1 padded">
                 <div class="col-lg-12 text-center">
-                    <h2>Publications</h2> <br/>
+                    <h2 style="color: white;">Publications</h2>
                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row container-light1">
+                <div class="col-md-1"></div>
+                <div class="col-lg-10">
+                    <table class="table table-borderless">
+
                     {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
                     {% for current_group in grouped_by_year  %}
-                        <!-- Year tag -->
-                        {% if current_group.name == '3000' %}
-                            <h4>Coming soon...</h4>
-                        {% else %}
-                            <h4>{{current_group.name}}</h4>
-                        {% endif %}
+                        <tr>
+                            <!-- Year tag -->
+                            {% if current_group.name == '3000' %}
+                                <th><h4>Coming soon...</h4></th>
+                            {% else %}
+                                <th><h4>{{current_group.name}}</h4></th>
+                            {% endif %}
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
 
                         <!-- Publications with the year -->
                         {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
                         {% for publication in sorted_publications %}
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-1" align='right'>
                             </div>
-                            <div class="col-md-9">
-                                <p>
+                            <div class="col-md-9"> -->
+                            <tr>
+                                <td></td>
+                                <td class="publication">
                                     {% for author in publication.authors %}
                                         {% if forloop.last %}
                                             {% if publication.authors.size> 1 %}
@@ -58,27 +68,29 @@
                                         <a href="https://doi.org/{{publication.doi}}" >doi:{{publication.doi}}</a>.
                                     {% endif %}
                                     {% if publication.abstract %}
+                                        <br/>
                                         <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light abstract-btn">Abstract ↓</button>
                                     {% endif %}
                                     <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
-                                        <div class="card-body">
+                                        <div class="card-body card-abstract">
                                             {{publication.abstract}}
                                         </div>
                                     </div>
-                                </p>
-                            </div>
-                            <div class="col-md-2"><p>
+                                </td>
+                                <td class="publication">
                                 {% if publication.pdf %}
-                                    <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle;color:black'><i class="fa fa-fw fa-file-pdf-o" data-toggle="popover" data-trigger="hover" data-content="PDF"></i></a>
+                                    <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><i class="fa fa-fw fa-file-pdf-o"></i></a>
                                 {% endif %}
+                                </td>
+                                <td class="publication">
                                 {% if publication.osf %}
                                     <a href={{publication.osf}} style='vertical-align: middle;' data-toggle="popover" data-trigger="hover" data-content="OSF repository"><img class='align-self-center' type="image/svg+xml" src="img/osf_logo.svg" style='width:25px;vertical-align:middle'></object></a>
                                 {% endif %}
-                                </p>
-                            </div>
-                        </div>
+                                </td>
+                        </tr>
                         {% endfor %}
                     {% endfor %}
+                    </table>
                 </div>
             </div>
         </div>
