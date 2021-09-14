@@ -1,16 +1,18 @@
-﻿- title: "Clever Cats: Do They Utilize Change Blindness as a Covered Approaching Strategy?"
-  journal: i-Perception
+﻿- title: "Binocular rivalry reveals an out-of-equilibrium neural dynamics suited for decision-making"
+  journal: eLife
   year: 2021
-  volume : 12
-  issue: 1
-  pages: 204166952199459
-  pdf: Pastukhov, Carbon - 2021 - Clever Cats Do They Utilize Change Blindness as a Covered Approaching Strategy.pdf
+  volume : 10
+  pages: e61581
+  pdf: Cao et al. - 2021 - Binocular rivalry reveals an out-of-equilibrium neural dynamics suited for decision-making.pdf
   authors:
+    - Robin Cao
     - Alexander Pastukhov
-    - Christian-Claus Carbon
-  doi: 10.1177/2041669521994597
+    - Stepan Aleshin
+    - Mattia Maurizio
+    - Jochen Braun
+  doi: 10.7554/eLife.61581
   abstract: >
-    Sometimes, we do not notice big changes in our environment, if these changes occur while we perform eye movements or external events interrupt our perception. This striking phenomenon is known as “change blindness.” Research on chimpanzees, macaques, and pigeons suggests that change blindness may not be unique to humans, but our understanding is limited by the difficulty of carrying out change blindness experiments in animals. However, let’s have a look to the habitats of some of our most beloved four-legged friends: cats and dogs. Here, we list several online videos with cats and a husky appear to use humans’ change blindness to their advantage to sneak upon them. Thus, we might be able to deduce the effects of change blindness and other perceptual phenomena from animals’ behaviour. Our clear message: Watch more (cat) videos! Watch them as perceptual scientists by means of observing and analysing the cat’s behaviour.
+    In ambiguous or conflicting sensory situations, perception is often ‘multistable’ in that it perpetually changes at irregular intervals, shifting abruptly between distinct alternatives. The interval statistics of these alternations exhibits quasi-universal characteristics, suggesting a general mechanism. Using binocular rivalry, we show that many aspects of this perceptual dynamics are reproduced by a hierarchical model operating out of equilibrium. The constitutive elements of this model idealize the metastability of cortical networks. Independent elements accumulate visual evidence at one level, while groups of coupled elements compete for dominance at another level. As soon as one group dominates perception, feedback inhibition suppresses supporting evidence. Previously unreported features in the serial dependencies of perceptual alternations compellingly corroborate this mechanism. Moreover, the proposed out-of-equilibrium dynamics satisfies normative constraints of continuous decision-making. Thus, multistable perception may reflect decision-making in a volatile world: integrating evidence over space and time, choosing categorically between hypotheses, while concurrently evaluating alternatives.
 
 - title: "Change not State: Perceptual coupling in multistable displays reflects transient bias induced by perceptual change"
   journal: Psychonomic Bulletin & Review
