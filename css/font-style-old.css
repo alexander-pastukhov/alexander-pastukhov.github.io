@@ -39,17 +39,11 @@
 }
 
 .icon-mendeley:before {
-  content: "\6d";
+  content: "\61";
 }
-.icon-orcid:before {
-  content: "\6f";
-}
-.icon-researchgate:before {
-  content: "\72";
-}
-.icon-uni-bamberg:before {
+.icon-research-gate:before {
   content: "\62";
 }
-.icon-cran:before {
+.icon-uni-bamberg:before {
   content: "\63";
 }
