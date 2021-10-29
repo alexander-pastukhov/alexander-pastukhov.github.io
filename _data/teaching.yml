@@ -1,7 +1,7 @@
-- title : Python for social and experimental psychology
+- title : Writing games with Python and PsychoPy (work in progress)
   description : >
-    A two-semester introductory course on programming and Python aimed at undergraduate psychology students. The aim is to learn how to program psychological experiments using Python and PsychoPy by writing computer games (because experiments are simply boring computer games). The course assumes no prior knowledge or programming skills. The first semester covers basics including conditional statements, lists, dictionaries and use of PsychoPy. The second semester covers topics such as classes, generators, NumPy and Pandas libraries, programming online experiments, etc. You will program classic games such as "Guess the Number", "Hunt the Wumpus", "Memory", "Snake", "Life", "Guitar Hero" etc.
-  url: https://alexander-pastukhov.github.io/python-for-experimental-psychology/
+    A two-semester introductory course on programming and Python aimed at undergraduate psychology students. The aim is to learn how to program psychological experiments using Python and PsychoPy by writing computer games (because experiments are simply boring computer games). The course assumes no prior knowledge or programming skills. The first semester covers basics including conditional statements, lists, dictionaries and use of PsychoPy. The second semester covers topics such as classes, generators, etc. You will program classic games such as "Guess the Number", "Whack-a-Mole", "Memory", "Snake", "Life", "Guitar Hero", etc.
+  url: https://alexander-pastukhov.github.io/writing-games-with-python-and-psychopy/
 
 - title : Data analysis using R for Psychology
   description : >
@@ -18,3 +18,8 @@
   description : >
     An R-version that tries to keep the code as close to the original as possible.
   url: https://alexander-pastukhov.github.io/cohen-linear-algebra/
+
+- title : Python for social and experimental psychology (old version)
+  description : >
+    A two-semester introductory course on programming and Python aimed at undergraduate psychology students. The aim is to learn how to program psychological experiments using Python and PsychoPy by writing computer games (because experiments are simply boring computer games). The course assumes no prior knowledge or programming skills. The first semester covers basics including conditional statements, lists, dictionaries and use of PsychoPy. The second semester covers topics such as classes, generators, NumPy and Pandas libraries, programming online experiments, etc. You will program classic games such as "Guess the Number", "Hunt the Wumpus", "Memory", "Snake", "Life", "Guitar Hero", etc.
+  url: https://alexander-pastukhov.github.io/python-for-experimental-psychology/
