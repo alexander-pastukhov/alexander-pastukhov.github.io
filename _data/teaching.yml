@@ -8,10 +8,10 @@
     An introductory course on how to use R to analyze a typical psychophysical and social psychology research data. The course will walk you through all the analysis stages from importing a raw data to compiling a nice looking final report that automatically incorporates all the figures and statistics. Although I will introduce base, the main focus is on using Tidyverse family of packages that make data wrangling easy.
   url: https://alexander-pastukhov.github.io/data-analysis-using-r-for-psychology/
 
-- title : Notes on Statistical Rethinking
+- title : Notes on Statisticas
   description: >
-    Currently, a haphazard collection of notes that aim to clarify or expand on topics mentioned but not fully explained in the "Statistical Rethinking" book by Richard McElreath. The topics include detailed explanation of information criteria, loss functions, (hidden) collider bias, DAGs, multicolliniarity, etc.
-  url: https://alexander-pastukhov.github.io/notes-on-statistical-rethinking/
+    Currently, a haphazard collection of notes on statistics. The primaryaim is to clarify or expand on topics mentioned but not fully explained in the "Statistical Rethinking" book by Richard McElreath but also now include topics from frequentist statistics. The topics include detailed explanation of information criteria, loss functions, (hidden) collider bias, DAGs, multicolliniarity, etc.
+  url: https://alexander-pastukhov.github.io/notes-on-statistics/
     
 - title : >
     R-version of the code for "Linear Algebra: Theory, Intuition, Code" by Mike X Cohen
