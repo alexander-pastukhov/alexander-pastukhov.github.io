@@ -1,4 +1,15 @@
-﻿- title: "When perception is stronger than physics: Perceptual similarities rather than laws of physics govern the perception of interacting objects"
+﻿- title: "Wheres My Button Evaluating the User Experience of Surface Haptics in Featureless Automotive User Interfaces."
+  journal: IEEE Transactions on Haptics
+  year: 2021
+  authors:
+    - Stefan Josef Breitschaft
+    - Alexander Pastukhov
+    - Christian-Claus Carbon
+  doi: 10.1109/TOH.2021.3131058
+  abstract : >
+    Advancements in user interface technologies and demands of design engineering led to increasing implementation of large and mostly flat interactive surfaces in automotive. Recent discussions in the context of in-vehicle usage of touchscreens advocate for the use of haptic feedback to restore the explore- and feel-qualities typically experienced in traditional physical button interfaces that contribute to intuitive, eyes-free, and tactually rich interactions. Haptic technologies that include a friction modulation approach seem especially promising to convey a high-quality feeling. This research reports an experience-oriented evaluation of an electrostatic friction haptic display in an in-vehicle direct touch interaction context. The evaluation was based on an automotive multitask setting (primary driving-task and secondary target-selection-task) with a 22 feedback modality design (factors haptic/audio with levels absent/present). The objective variables (response time, errors, and performance on the primary task) did not differ between feedback modalities. Any additional feedback to a visual baseline enhanced the user experience, with the multimodal feedback being preferred by most participants. Surface haptics was perceived as a novel yet unexpected type of haptic feedback. We discuss the implications for the haptic design of programmable friction displays and provide an initial set of guidelines for this innovative technology.
+
+- title: "When perception is stronger than physics: Perceptual similarities rather than laws of physics govern the perception of interacting objects"
   journal: Attention, Perception, & Psychophysics
   year: 2021
   pdf: Pastukhov, Koßmann, Carbon - 2021 - When perception is stronger than physics Perceptual similarities rather than laws of physics govern.pdf
