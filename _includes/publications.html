@@ -22,7 +22,6 @@
                             <th></th>
                             <th></th>
                             <th></th>
-                            <th></th>
                         </tr>
 
                         <!-- Publications with the year -->
@@ -33,7 +32,8 @@
                             </div>
                             <div class="col-md-9"> -->
                             <tr>
-                                <td></td>
+                                <td class="publication">
+                                </td>
                                 <td class="publication">
                                     {% for author in publication.authors %}
                                         {% if forloop.last %}
@@ -64,13 +64,16 @@
                                         {% else %}
                                             <i>{{publication.volume}}</i>,
                                         {% endif %}
-                                        {{publication.pages}}.
+                                        {{publication.pages}}.<br/>
                                         <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
+                                        {% if publication.osf %}
+                                            <a href="https://osf.io/{{publication.osf}}"><img src="https://img.shields.io/static/v1?label=Open Data&message=osf.io/{{publication.osf}}&color=green"> </a>
+                                        {% endif %}
                                     {% endif %}
-                                    {% if publication.abstract %}
+                                    <!-- {% if publication.abstract %}
                                         <br/>
                                         <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light abstract-btn">Abstract ↓</button>
-                                    {% endif %}
+                                    {% endif %} -->
                                     <!-- <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
                                         <div class="card-body card-abstract">
                                             {{publication.abstract}}
@@ -80,11 +83,6 @@
                                 <td class="publication">
                                 {% if publication.pdf %}
                                     <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><i class="fa fa-fw fa-file-pdf-o"></i></a>
-                                {% endif %}
-                                </td>
-                                <td class="publication">
-                                {% if publication.osf %}
-                                    <a href={{publication.osf}} style='vertical-align: middle;' data-toggle="popover" data-trigger="hover" data-content="OSF repository"><img class='align-self-center' type="image/svg+xml" src="img/osf_logo.svg" style='width:25px;vertical-align:middle'></object></a>
                                 {% endif %}
                                 </td>
                         </tr>

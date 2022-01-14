@@ -27,7 +27,7 @@
     - Lisa Koßmann
     - Christian-Claus Carbon
   doi: 10.3758/s13414-021-02383-1
-  osf: https://osf.io/ypvbg
+  osf: ypvbg
   abstract : >
     When several multistable displays are viewed simultaneously, their perception is synchronized, as they tend to be in the same perceptual state. Here, we investigated the possibility that perception may reflect embedded statistical knowledge of physical interaction between objects for specific combinations of displays and layouts. We used a novel display with two ambiguously rotating gears and an ambiguous walker-on-a-ball display. Both stimuli produce a physically congruent perception when an interaction is possible (i.e., gears counterrotate, and the ball rolls under the walker’s feet). Next, we gradually manipulated the stimuli to either introduce abrupt changes to the potential physical interaction between objects or keep it constant despite changes in the visual stimulus. We characterized the data using four different models that assumed (1) independence of perception of the stimulus, (2) dependence on the stimulus’s properties, (3) dependence on physical configuration alone, and (4) an interaction between stimulus properties and a physical configuration. We observed that for the ambiguous gears, the perception was correlated with the stimulus changes rather than with the possibility of physical interaction. The perception of walker-on-a-ball was independent of the stimulus but depended instead on whether participants responded about a relative motion of two objects (perception was biased towards physically congruent motion) or the absolute motion of the walker alone (perception was independent of the rotation of the ball). None of the two experiments supported the idea of embedded knowledge of physical interaction.
 
@@ -55,7 +55,7 @@
     - Alexander Pastukhov
     - Christian-Claus Carbon
   doi: 10.3758/s13423-021-01960-7
-  osf: https://osf.io/bak6c
+  osf: bak6c
   abstract: >
     We investigated how changes in dynamic spatial context influence visual perception. Specifically, we reexamined the perceptual coupling phenomenon when two multistable displays viewed simultaneously tend to be in the same dominant state and switch in accord. Current models assume this interaction reflecting mutual bias produced by a dominant perceptual state. In contrast, we demonstrate that influence of spatial context is strongest when perception changes . First, we replicated earlier work using bistable kinetic-depth effect displays, then extended it by employing asynchronous presentation to show that perceptual coupling cannot be accounted for by the static context provided by perceptually dominant states . Next, we demonstrated that perceptual coupling reflects transient bias induced by perceptual change , both in ambiguous and disambiguated displays. We used a hierarchical Bayesian model to characterize its timing, demonstrating that the transient bias is induced 50–70 ms after the exogenous trigger event and decays within ~200–300 ms. Both endogenous and exogenous switches led to quantitatively and qualitatively similar perceptual consequences, activating similar perceptual reevaluation mechanisms within a spatial surround. We explain how they can be understood within a transient selective visual attention framework or using local lateral connections within sensory representations. We suggest that observed perceptual effects reflect general mechanisms of perceptual inference for dynamic visual scene perception.
 
@@ -84,7 +84,7 @@
     - Astrid Schütz
   doi: 10.1080/23743603.2020.1828850
   pdf: Leder, Pastukhov, Schütz - 2020 - Social value orientation subjective effectiveness perceived cost and the use of protective measures during the COVID 19 pandemic in Germany.pdf
-  osf: https://osf.io/8faeb/
+  osf: 8faeb/
   abstract: > 
     We investigated the influence of perceived protective value for the public, perceived self-protective value, and perceived cost of the behavior on the adoption of protective behavior during the COVID-19 pandemic. In a pilot study conducted when the lockdown was put in place in Germany, we investigated perceptions of the protective value and use of various protective behavioral measures against COVID-19. Although our sample (German general public, N = 419; age = 38.07, SD = 15.67; women = 71.1% [diverse = 0.5%]; students = 34.37%) consisted mostly of prosocially oriented individuals, we found that, above all, participants used protective measures that offered self-protection. In a second study conducted after the lock down in Germany had been lifted, which used a similar sample (German general public, N = 253; age = 42.53, SD = 16.03; women = 69.8% [diverse = 0.4%]; students = 24.10%), we observed the same results even after people had adapted to the threat. In addition, the second study showed a negative relationship between the perceived costs of a behavior and the frequency of its use. The two studies suggest that the use of protective measures during the COVID-19 pandemic is based on a cost-benefit perception. We conclude that health communication should focus on the perceived self-protective value of certain behaviors but should simultaneously emphasize their relatively low cost.
 
@@ -97,7 +97,7 @@
     - Alexander Pastukhov
     - Astrid Schütz
   doi: 10.1080/23743603.2020.1831377
-  osf: https://osf.io/cu7kw/
+  osf: cu7kw/
   abstract: >
     With the present study, we tested whether generosity changes dependent on money or time being shared. During the experiment, participants N = 371 (MAge = 37.5 years, 38.8% female) completed questionnaires measuring social value orientation, moral identity centrality, and honesty-humility. The opportunity cost of time spent on a real effort task was measured with an incentivized method. Then, participants played two versions of a dictator game: either in a standard dictator game, where participants could share payoffs from the real effort task; or in a time dictator game, where participants decided how long they want to work for another participant’s payoff. We tested three hypotheses. (a) Time and money are not equivalent, and participants are more generous with time than with money. (b) Giving time results in higher positive affect than giving money. (c) Participants’ social value orientation, moral identity centrality, and honesty-humility explain the difference between the donations of time and money, and personality traits will have a stronger impact on time decisions than on monetary decisions. We found that approximately 50% of participants were more generous when giving time, this effect was not dependent on the opportunity cost of time. We think that our experiment is the first experiment to unambiguously show this effect. Furthermore, generosity was not related to positive affect and we found no moderating effect of personality traits.
 
@@ -110,7 +110,7 @@
     - Christian-Claus Carbon
   pdf: Pastukhov, Burkel, Carbon - 2020 - Shape specificity of neural persistence.pdf
   doi: 10.3758/s13414-019-01954-7
-  osf: https://osf.io/cdtfr/
+  osf: cdtfr/
   abstract: >
     When multistable displays—stimuli that are compatible with several comparably likely perceptual interpretations—are presented intermittently, the perceptual state at the stimulus onset shows a complex dependence on the duration of the preceding blank interval. Specifically, perception is maximally destabilized for interruptions that are approximately 500 ms long, but it is stabilized by the use of shorter or longer blank intervals. This nonmonotonic dependence of perceptual stability on the blank interval duration raises questions about a number of history effects that are involved and about their nature, including the underlying neural representations. One way to characterize history effects is by looking at their specificity to the change of display properties. Here we measured the shape specificity for perception of the kinetic-depth effect when interruptions were brief (50 ms). For this time interval, perception is thought to be stabilized by neural persistence, a lingering trace of the prior neural activity. We found that perceptual stability depended on the shapes of the objects presented both before and after the break, but not on the similarity between the objects. These results matched earlier reports of the shape specificity of neural adaptation (destabilizing aftereffect for blanks 200–800 ms long). However, our results were markedly different from the shape specificity of sensory memory of multistable perception (a stabilizing effect for blanks > 800–1,000 ms). We concluded that whereas neural persistence and adaptation both act on the same motion-selective neural representation, sensory memory depends on another, possibly partially overlapping, shape-selective neural ensemble.
 
@@ -127,7 +127,7 @@
     - Christian-Claus Carbon
   pdf: Pastukhov et al. - 2019 - Switch rates for orthogonally oriented kinetic-depth displays are correlated across observers.pdf
   doi: 10.1167/19.6.1
-  osf: https://osf.io/t2p5q/
+  osf: t2p5q/
   abstract: >
     When continuously viewing multistable displays, which are compatible with several comparably likely interpretations, perception perpetually switches between available alternatives. Prior studies typically report the lack of consistent individual switch rates across different displays. However, this comparison is based on an assumption that neural representations of physically identical displays are consistent across observers. Yet, given how different individuals are already at the level of the retina, it is likely that the difference in other relevant factors might mask the correlation. To address this issue, we compared switch rates in two kinetic-depth displays (KDE) that rotated around orthogonal axes (458 counterclockwise vs. 458 clockwise relative to the vertical). This ensured that dynamics of multistable perception was based on highly similar, but different and independent neural representations. We also included a Necker cube (NC) display as a control. We report that switch rates were correlated between two kinetic-depth effect displays, but not between either of the KDE and NC displays. This demonstrates that the usual lack of correlation may not be evidence for the lack of a shared pacesetter mechanism of multistable perception, but reflect other factors, such as differently modulated inputs to competing representations. In addition, we asked participants to speed-up or slow-down perceptual alternations and found that only the former ability was correlated across different displays. This indicates that these two types of volitional control may differ in their use of attentional resources.
   
@@ -137,7 +137,7 @@
   volume: 18
   issue: 4
   pages: 21
-  osf: https://osf.io/euzjb/
+  osf: euzjb/
   doi: 10.1167/18.4.21
   pdf: Pastukhov et al. - 2018 - Perceptual coupling induces co-rotation and speeds up alternations in adjacent bi-stable structure-from-motion.pdf
   index: 5
@@ -157,7 +157,7 @@
   volume: 9
   issue: April
   pages: 1-7
-  osf: https://osf.io/t5qfp/
+  osf: t5qfp/
   pdf: Carbon, Pastukhov - 2018 - Reliable Top-Left Light Convention Starts With Early Renaissance An Extensive Approach Comprising 10k Artwork.pdf
   index: 4
   authors:
@@ -169,7 +169,7 @@
 - title: "Out of sight, out of mind: lack of persistence for occluded moving bi-stable structure-from-motion displays"
   year: 2018
   journal: Attention, Perception, & Psychophysics
-  osf: https://osf.io/qqrzp/
+  osf: qqrzp/
   doi: 10.3758/s13414-018-1505-z
   volume: 80
   issue: 5
@@ -206,7 +206,7 @@
   issue: 1
   pages: e0192133
   doi: 10.1371/journal.pone.0192133
-  osf: https://osf.io/a47q2/
+  osf: a47q2/
   index: 1
   pdf: Devyatko, Pastukhov - 2018 - Extrinsic grouping factors in motion-induced blindness.pdf
   authors:
@@ -544,7 +544,7 @@
   pages: 1158
   index: 1
   doi: 10.1038/s41598-017-01376-1
-  osf: https://osf.io/ynsvy/
+  osf: ynsvy/
   pdf: Pastukhov - 2017 - First, you need a Gestalt An interaction of bottom-up and top-down streams during the perception of the ambiguously r.pdf
   authors:
     - Alexander Pastukhov
