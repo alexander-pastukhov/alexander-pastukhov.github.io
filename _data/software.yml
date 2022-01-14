@@ -33,6 +33,7 @@
   docs: https://alexander-pastukhov.github.io/bidim-regression
   github: https://github.com/alexander-pastukhov/bidim-regression
   CRAN: https://cran.r-project.org/package=BiDimRegression
+  zenodo: 128784205
 
 - title: edfImport
   index : 5
