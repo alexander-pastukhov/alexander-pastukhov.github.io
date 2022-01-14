@@ -6,6 +6,7 @@
   docs: https://alexander-pastukhov.github.io/bistablehistory
   github: https://github.com/alexander-pastukhov/bistablehistory
   CRAN: https://cran.r-project.org/package=bistablehistory
+  zenodo: 299245172
 
 - title: TriDimRegression
   index: 2
@@ -15,6 +16,7 @@
   docs: https://alexander-pastukhov.github.io/tridim-regression
   github: https://github.com/alexander-pastukhov/tridim-regression
   CRAN : https://cran.r-project.org/package=TriDimRegression
+  zenodo: 139134694
 
 - title: eyelinkReader
   index: 3

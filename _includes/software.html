@@ -26,6 +26,9 @@
                 {% else %}
                     <h4>{{current.title}} ({{current.language}})</h4>
                 {% endif %}
+                {% if current.zenodo %}
+                    <a href="https://zenodo.org/badge/latestdoi/{{current.zenodo}}"><img src="https://zenodo.org/badge/{{current.zenodo}}.svg" alt="DOI"></a>
+                {% endif %}
                 <p>{{current.description}}</p>
                 <p>
                     {% if current.docs %}
