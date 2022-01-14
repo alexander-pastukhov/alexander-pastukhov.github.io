@@ -10,7 +10,7 @@
                 <div class="col-lg-10">
                     <table class="table table-borderless">
 
-                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
+                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year')  %}
                     {% for current_group in grouped_by_year  %}
                         <tr>
                             <!-- Year tag -->
