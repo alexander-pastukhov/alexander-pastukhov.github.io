@@ -65,7 +65,7 @@
                                             <i>{{publication.volume}}</i>,
                                         {% endif %}
                                         {{publication.pages}}.
-                                        <a href="https://doi.org/{{publication.doi}}" >doi:{{publication.doi}}</a>.
+                                        <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
                                     {% endif %}
                                     {% if publication.abstract %}
                                         <br/>
