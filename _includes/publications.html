@@ -10,7 +10,7 @@
                 <div class="col-lg-10">
                     <table class="table table-borderless">
 
-                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year')  %}
+                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
                     {% for current_group in grouped_by_year  %}
                         <tr>
                             <!-- Year tag -->
@@ -58,13 +58,21 @@
                                     {% endif %}
                                     <span style="font-weight: bold;">{{publication.title}}</span>.
                                     {% if publication.year != 3000 %}
-                                        <i>{{publication.journal}},</i> 
-                                        {% if publication.issue %}
-                                            <i>{{publication.volume}}</i>({{publication.issue}}),
+                                        {% if publication.volume %} 
+                                            <i>{{publication.journal}}</i>,
+                                            {% if publication.issue %}
+                                                <i>{{publication.volume}}</i>({{publication.issue}}),
+                                            {% else %}
+                                                <i>{{publication.volume}}</i>,
+                                            {% endif %}
                                         {% else %}
-                                            <i>{{publication.volume}}</i>,
+                                            <i>{{publication.journal}}</i>
                                         {% endif %}
-                                        {{publication.pages}}.<br/>
+                                        {% if publication.pages %}
+                                            {{publication.pages}}.<br/>
+                                        {% else %}
+                                            .<br/>
+                                        {% endif %}
                                         <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
                                         {% if publication.osf %}
                                             <a href="https://osf.io/{{publication.osf}}"><img src="https://img.shields.io/static/v1?label=Open Data&message=osf.io/{{publication.osf}}&color=green"> </a>
