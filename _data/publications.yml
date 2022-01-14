@@ -1,4 +1,24 @@
-﻿- title: "When perception is stronger than physics: Perceptual similarities rather than laws of physics govern the perception of interacting objects"
+﻿- title: "Multistable Perception."
+  journal: Oxford Research Encyclopedia of Psychology
+  year: 2021
+  authors:
+    - Alexander Pastukhov
+  doi: 10.1093/acrefore/9780190236557.013.893
+  abstract : >
+    Multistable perception is produced by stimuli that are consistent with two or more different comparably likely perceptual interpretations. After the initial perception is resolved in favor of one of the interpretations, continued viewing leads to fluctuating subjective experience, as perception spontaneously switches between alternative states. Multistable perception occurs for different modalities, including visual, auditory, tactile, olfactory perception and proprioception, and various conflicting sensory representations, such as eye dominance, depth, motion, or meaning. Despite large differences, multistable stimuli produce quantitatively similar perceptual experience with stereotypical distribution of durations of dominance phases, similar dependence on the absolute and relative strength of competing perceptual interpretations, prior perceptual history, presentation method, attention, and volitional control, and so on. Taken together, this shows that multistable perception reflects the action of general canonical perceptual mechanisms whose purpose is to resolve the conflicting evidence and ensure a single dominant perception that can be used for action. Thus, it informs us about mechanisms of perceptual decision making, including the importance of feedback mechanisms in resolving perceptual ambiguity and the role of parietal and frontal regions in facilitating changes in perception. Multistable perception provides useful constraints for models, inspiring a plethora of models of perception that combine neurally plausible mechanisms, such as neural adaptation and inhibition, or are based on the idea of predictive coding. The sensitive nature of multistable perception makes a valuable experimental tool that can reveal even minor differences due to low- or high-level influences, including genetic or clinical cases. As such, it is an important tool in studying neural and behavioral correlates of consciousness as it dissociates perception from the stimulus.
+
+- title: "Wheres My Button Evaluating the User Experience of Surface Haptics in Featureless Automotive User Interfaces."
+  journal: IEEE Transactions on Haptics
+  year: 2021
+  authors:
+    - Stefan Josef Breitschaft
+    - Alexander Pastukhov
+    - Christian-Claus Carbon
+  doi: 10.1109/TOH.2021.3131058
+  abstract : >
+    Advancements in user interface technologies and demands of design engineering led to increasing implementation of large and mostly flat interactive surfaces in automotive. Recent discussions in the context of in-vehicle usage of touchscreens advocate for the use of haptic feedback to restore the explore- and feel-qualities typically experienced in traditional physical button interfaces that contribute to intuitive, eyes-free, and tactually rich interactions. Haptic technologies that include a friction modulation approach seem especially promising to convey a high-quality feeling. This research reports an experience-oriented evaluation of an electrostatic friction haptic display in an in-vehicle direct touch interaction context. The evaluation was based on an automotive multitask setting (primary driving-task and secondary target-selection-task) with a 22 feedback modality design (factors haptic/audio with levels absent/present). The objective variables (response time, errors, and performance on the primary task) did not differ between feedback modalities. Any additional feedback to a visual baseline enhanced the user experience, with the multimodal feedback being preferred by most participants. Surface haptics was perceived as a novel yet unexpected type of haptic feedback. We discuss the implications for the haptic design of programmable friction displays and provide an initial set of guidelines for this innovative technology.
+
+- title: "When perception is stronger than physics: Perceptual similarities rather than laws of physics govern the perception of interacting objects"
   journal: Attention, Perception, & Psychophysics
   year: 2021
   pdf: Pastukhov, Koßmann, Carbon - 2021 - When perception is stronger than physics Perceptual similarities rather than laws of physics govern.pdf
