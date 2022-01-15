@@ -12,8 +12,7 @@
 
                     {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
                     {% for current_group in grouped_by_year  %}
-                        <tr>
-                            <!-- Year tag -->
+                        <!-- <tr>
                             {% if current_group.name == '3000' %}
                                 <th><h4>Coming soon...</h4></th>
                             {% else %}
@@ -22,7 +21,7 @@
                             <th></th>
                             <th></th>
                             <th></th>
-                        </tr>
+                        </tr> -->
 
                         <!-- Publications with the year -->
                         {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
@@ -32,8 +31,15 @@
                             </div>
                             <div class="col-md-9"> -->
                             <tr>
-                                <td class="publication">
-                                </td>
+                                {% if forloop.first %}
+                                    {% if current_group.name == '3000' %}
+                                        <th><h4>Coming soon...</h4></th>
+                                    {% else %}
+                                        <th style="vertical-align: top;"><h4>{{current_group.name}}</h4></th>
+                                    {% endif %}
+                                {% else %}
+                                    <td class="publication"></td>
+                                {% endif %}
                                 <td class="publication">
                                     {% for author in publication.authors %}
                                         {% if forloop.last %}
@@ -87,11 +93,14 @@
                                             {{publication.abstract}}
                                         </div>
                                     </div> -->
+                                    {% if forloop.last %}
+                                        <br/><br/>
+                                    {% endif %}
                                 </td>
                                 <td class="publication">
-                                {% if publication.pdf %}
-                                    <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><img src="img/PDF_file_icon.svg" style="height: 2em"></a>
-                                {% endif %}
+                                    {% if publication.pdf %}
+                                        <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><img src="img/PDF_file_icon.svg" style="height: 2em"></a>
+                                    {% endif %}
                                 </td>
                         </tr>
                         {% endfor %}
