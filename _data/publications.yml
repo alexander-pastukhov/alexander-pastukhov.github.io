@@ -1,4 +1,16 @@
-﻿- title: "Multistable Perception"
+﻿- title: "bistablehistory: an R package for history-dependent analysis of perceptual time series"
+  journal: The Journal of Open Source Software
+  year: 2022
+  volume: 7
+  issue: 70
+  pages: 3901
+  pdf: "Pastukhov - 2022 - bistablehistory an R package for history-dependent analysis of perceptual time series.pdf"
+  authors:
+    - Alexander Pastukhov
+  doi: 10.21105/joss.03901
+  index: 1
+  
+- title: "Multistable Perception"
   journal: Oxford Research Encyclopedia of Psychology
   year: 2021
   authors:
