@@ -30,6 +30,9 @@
                 {% if current.zenodo %}
                     <a href="https://zenodo.org/badge/latestdoi/{{current.zenodo}}"><img src="https://zenodo.org/badge/{{current.zenodo}}.svg" alt="DOI"></a>
                 {% endif %}
+                {% if current.CRAN %}
+                    <a href="https://cran.r-project.org/package={{current.CRAN}}" class="external-link"><img src="https://www.r-pkg.org/badges/version/{{current.CRAN}}" alt="CRAN status"></a>
+                {% endif %}
                 <p>{{current.description}}</p>
                 <p>
                     {% if current.docs %}
@@ -37,7 +40,7 @@
                     {% endif %}
                     <b><i class="fa fa-fw fa-github"></i><a href={{current.github}}><b>{{current.github}}</b></a></b>
                     {% if current.CRAN %}
-                    <br/><b><i class="fa fa-fw icon icon-cran align-self-center"></i><a href={{current.CRAN}}>{{current.CRAN}}</a></b>
+                    <br/><b><i class="fa fa-fw icon icon-cran align-self-center"></i><a href="https://cran.r-project.org/package={{current.CRAN}}">https://cran.r-project.org/package={{current.CRAN}}</a></b>
                     {% endif %}
                 </p>
             </div>
