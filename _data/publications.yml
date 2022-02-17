@@ -4,7 +4,7 @@
   volume: 7
   issue: 70
   pages: 3901
-  pdf: "Pastukhov - 2022 - bistablehistory an R package for history-dependent analysis of perceptual time series.pdf"
+  pdf: Pastukhov - 2022 - bistablehistory an R package for history-dependent analysis of perceptual time series.pdf
   authors:
     - Alexander Pastukhov
   doi: 10.21105/joss.03901
