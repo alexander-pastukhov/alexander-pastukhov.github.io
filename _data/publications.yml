@@ -7,6 +7,7 @@
     - Astrid Schütz
     - Alexander Pastukhov
   doi: 10.1027/1864-9335/a000463
+  osf: 6e7bc
   index: 2
 
 - title: "bistablehistory: an R package for history-dependent analysis of perceptual time series"
