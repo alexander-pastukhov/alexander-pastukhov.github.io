@@ -1,4 +1,15 @@
-﻿- title: "bistablehistory: an R package for history-dependent analysis of perceptual time series"
+﻿- title: "Keeping the Kids Home. Increasing Concern for Others in Times of Crisis"
+  journal: Social Psychology
+  year: 2022
+  pdf: Leder, Schuetz, Pastukhov - 2022 - Keeping kids at home.pdf
+  authors:
+    - Johannes Leder
+    - Astrid Schütz
+    - Alexander Pastukhov
+  doi: 10.1027/1864-9335/a000463
+  index: 2
+
+- title: "bistablehistory: an R package for history-dependent analysis of perceptual time series"
   journal: The Journal of Open Source Software
   year: 2022
   volume: 7
