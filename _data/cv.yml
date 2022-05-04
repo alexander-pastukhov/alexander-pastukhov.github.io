@@ -1,0 +1,139 @@
+other_skills:
+  - kind: Languages
+    specifics:
+      - Russian (native)
+      - English (fluent writing and speaking)
+      - German (fluent speaking, good writing)
+  - kind : IT
+    specifics: 
+      - Docker/Docker Compose
+      - Git
+      - LAMP
+  - kind: Data Science
+    specifics:
+      - Statistics including parameteric and non-parameteric resampling
+      - Bayesian statistics with MCMC via Stan
+      - Machine Learning
+  - kind : Academia
+    specifics:
+      - 38 publications in referred journals
+      - 2013 “Best of the Year” award from the Psychonomic Society for publications in Attention, Perception, and Psychophysics
+      - 69 conference abstracts
+
+programming:
+  - language: Python
+    level: 5
+    specifics:
+      - NumPy/Pandas/SciPy/Scikit-Learn
+      - Django
+      - PsychoPy/PyGame/Piglet
+  - language: R
+    level: 5
+    specifics:
+      - Tidyverse/ggplot2
+      - Package development
+      - RMarkdown/Bookdown
+      - RCpp (C/C++)
+      - STAN
+      - Shiny
+  - language: JavaScript
+    level: 4
+    specifics:
+      - AJAX
+      - jQuery
+  - language: Matlab
+    level: 3
+    specifics:
+      - Data analysis
+      - PsychoToolBox
+      - Package development
+      - MEX (C/C++)
+  - language: C#
+    level: 2
+    specifics:
+      - Unity
+      - WPF
+  - language: Java
+    level: 2
+    specifics:
+      - Android
+
+
+education:
+  - school: Volgograd State Technical University, Russia
+    degree: Ph.D. (Kandidat Technicheskih Nauk)
+    field: Computer Science
+    start:
+      year: 2000
+      month: 7
+    end:
+      year: 2001
+      month: 12
+
+  - school: Volgograd State Technical University, Russia
+    degree: M. Sc.
+    field: Computer Science
+    start:
+      year: 1998
+      month: 7
+    end:
+      year: 2000
+      month: 6
+
+  - school: Volgograd State Technical University, Russia
+    degree: B.Sc.
+    field: Computer Science
+    start:
+      year: 1994
+      month: 7
+    end:
+      year: 1998
+      month: 6
+
+employment:
+  - company: Otto-Friedrich Universität, Bamberg, Germany
+    department: General Psychology and Methodology
+    position: Lecturer (Akademischer Rat)
+    start:
+      year : 2015
+      month: 3
+
+  - company: Otto-von-Guericke Universität, Magdeburg, Germany
+    department: Cognitive Biology
+    position: Research Scientist
+    start:
+      year : 2004
+      month: 6
+    end:
+      year : 2015
+      month: 2
+
+  - company: University of Plymouth, UK
+    department: Cognitive Neuroscience
+    position: Research Scientist
+    start:
+      year : 2003
+      month: 1
+    end:
+      year : 2004
+      month: 6
+
+  - company: Volgograd State Technical University, Russia
+    department: CAD Systems
+    position: Lecturer
+    start:
+      year : 2002
+      month: 9
+    end:
+      year : 2003
+      month: 1
+
+  - company: Volgograd State Technical University, Russia
+    department: CAD Systems
+    position: Research Scientist
+    start:
+      year : 2002
+      month: 1
+    end:
+      year : 2002
+      month: 9
