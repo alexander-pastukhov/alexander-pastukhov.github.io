@@ -1,0 +1,181 @@
+other_skills:
+  - kind: Data Science
+    specifics:
+      - R and Python
+      - Statistics, parameteric and non-parameteric resampling
+      - Bayesian statistics via MCMC (Stan)
+      - Machine Learning
+  - kind: Scientific<br/>Programming
+    specifics:
+      - Python + PsychoPy
+      - Matlab + Psychtoolbox
+      - Otree online studies
+      - "Hardware: eye trackers, EEG, VR, Kinect, haptic devices"
+  - kind : IT
+    specifics: 
+      - Docker/Docker Compose
+      - Git
+      - LAMP
+      - "SQL: MariaDB, PostgreSQL"
+  - kind: Languages
+    specifics:
+      - Russian (native)
+      - English (fluent writing and speaking)
+      - German (fluent speaking, good writing)
+  - kind : Academia
+    specifics:
+      - 38 publications in referred journals <a href="#publications"><span class="material-icons">expand_circle_down</span></a>
+      - 2013 “Best of the Year” award from the Psychonomic Society <a href="https://www.psychonomic.org/page/2013BestArticleAward"target="_blank"><span class="material-icons">open_in_new</span></a>
+      - 71 conference abstracts
+  - kind: Teaching
+    specifics:
+      - Python <a href="https://alexander-pastukhov.github.io/writing-games-with-python-and-psychopy/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - R for data science <a href="https://alexander-pastukhov.github.io/data-analysis-using-r-for-psychology/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Machine learning
+      - Bayesian statistics <a href="https://alexander-pastukhov.github.io/notes-on-statistics/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Linear algebra <a href="https://alexander-pastukhov.github.io/cohen-linear-algebra/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Matlab
+      - Neurobiology of visual and non-visual perception
+      - Decision making
+      - Neurobiology of consciousness
+  - kind : Hobbies
+    specifics:
+      - <span class="material-symbols-outlined">kayaking</span> White water kayaking <a href="https://faltbootclub.de/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - <span class="material-symbols-outlined">directions_bike</span> Bicycling
+
+programming:
+  - language: Python
+    level: 5
+    specifics:
+      - 'Data Science: NumPy, Pandas, SciPy'
+      - 'Machine Learning: Scikit-Learn, OpenCV'
+      - 'Web: Django'
+      - 'Scientific Programming: PsychoPy, PyGame, Piglet, OpenGL/GLSL'
+  - language: R
+    level: 5
+    specifics:
+      - 'Data Science: Tidyverse, ggplot2'
+      - Package development with Rcpp and Stan <a href="#software"><span class="material-icons">expand_circle_down</span></a>
+      - RMarkdown/Bookdown
+      - Shiny
+  - language: STAN
+    level: 4
+    specifics:
+      - Custom models
+  - language: JavaScript
+    level: 3
+    specifics:
+      - AJAX
+      - WebGL
+  - language: Matlab
+    level: 3
+    specifics:
+      - Data analysis
+      - Psychtoolbox
+      - Package development with MEX (C/C++) <a href="#software"><span class="material-icons">expand_circle_down</span></a>
+  - language: C/C++
+    level: 2
+    specifics:
+      - Rcpp for R
+      - MEX for Matlab
+      - OpenCV
+  - language: C#
+    level: 2
+    specifics:
+      - Unity
+      - WPF
+  - language: Java
+    level: 2
+    specifics:
+      - Android
+
+
+education:
+  - school: Volgograd State Technical University, Russia
+    degree: Ph.D. (Kandidat Technicheskih Nauk)
+    field: Computer Science
+    start:
+      year: 2000
+      month: 7
+    end:
+      year: 2001
+      month: 12
+
+  - school: Volgograd State Technical University, Russia
+    degree: M. Sc.
+    field: Computer Science
+    start:
+      year: 1998
+      month: 7
+    end:
+      year: 2000
+      month: 6
+
+  - school: Volgograd State Technical University, Russia
+    degree: B.Sc.
+    field: Computer Science
+    start:
+      year: 1994
+      month: 7
+    end:
+      year: 1998
+      month: 6
+
+employment:
+  - company: Otto-Friedrich Universität
+    city: Bamberg
+    country: Germany
+    department: Department of General Psychology and Methodology
+    position: Lecturer (Akademischer Rat)
+    link: https://www.uni-bamberg.de/allgpsych/
+    start:
+      year : 2015
+      month: 3
+
+  - company: Otto-von-Guericke Universität
+    city: Magdeburg
+    country: Germany
+    department: Department of Cognitive Biology
+    position: Research Scientist
+    start:
+      year : 2004
+      month: 6
+    end:
+      year : 2015
+      month: 2
+
+  - company: University of Plymouth
+    city: Plymouth
+    country: UK
+    department: Department of Cognitive Neuroscience
+    position: Research Scientist
+    start:
+      year : 2003
+      month: 1
+    end:
+      year : 2004
+      month: 6
+
+  - company: Volgograd State Technical University
+    city: Volgograd
+    country: Russia
+    department: CAD Systems Department
+    position: Lecturer
+    start:
+      year : 2002
+      month: 9
+    end:
+      year : 2003
+      month: 1
+
+  - company: Volgograd State Technical University
+    city: Volgograd
+    country: Russia
+    department: CAD Systems Department
+    position: Research Scientist
+    start:
+      year : 2002
+      month: 1
+    end:
+      year : 2002
+      month: 9

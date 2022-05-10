@@ -1,112 +1,112 @@
 <!-- Publications Section -->
-    <section id="publications"  style="padding-top: 0%; padding-bottom: 0%;">
-            <div class="row dark1 padded">
-                <div class="col-lg-12 text-center">
-                    <h2 style="color: white;">Publications</h2>
-               </div>
-            </div>
-            <div class="row container-light1">
-                <div class="col-md-1"></div>
-                <div class="col-lg-10">
-                    <table class="table table-borderless">
-
-                    {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
-                    {% for current_group in grouped_by_year  %}
-                        <!-- <tr>
-                            {% if current_group.name == '3000' %}
-                                <th><h4>Coming soon...</h4></th>
-                            {% else %}
-                                <th><h4>{{current_group.name}}</h4></th>
-                            {% endif %}
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                        </tr> -->
-
-                        <!-- Publications with the year -->
-                        {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
-                        {% for publication in sorted_publications %}
-                        <!-- <div class="row">
-                            <div class="col-md-1" align='right'>
-                            </div>
-                            <div class="col-md-9"> -->
-                            <tr>
-                                {% if forloop.first %}
-                                    {% if current_group.name == '3000' %}
-                                        <th><h4>Coming soon...</h4></th>
-                                    {% else %}
-                                        <th style="vertical-align: top;"><h4>{{current_group.name}}</h4></th>
-                                    {% endif %}
-                                {% else %}
-                                    <td class="publication"></td>
-                                {% endif %}
-                                <td class="publication">
-                                    {% for author in publication.authors %}
-                                        {% if forloop.last %}
-                                            {% if publication.authors.size> 1 %}
-                                                and {{ author }}
-                                            {% else %}
-                                                {{author}}
-                                            {% endif %}
-                                        {% else %}
-                                            {% if publication.authors.size > 2 %}
-                                                {{ author }},
-                                            {% else %}
-                                                {{author}}
-                                            {% endif %}
-                                        {% endif %}
-                                    {% endfor %}
-                                    
-                                    {% if publication.year != 3000 %}
-                                        ({{publication.year}}).
-                                    {% else %}
-                                    .
-                                    {% endif %}
-                                    <span style="font-weight: bold;">{{publication.title}}</span>.
-                                    {% if publication.year != 3000 %}
-                                        {% if publication.volume %} 
-                                            <i>{{publication.journal}}</i>,
-                                            {% if publication.issue %}
-                                                <i>{{publication.volume}}</i>({{publication.issue}}),
-                                            {% else %}
-                                                <i>{{publication.volume}}</i>,
-                                            {% endif %}
-                                        {% else %}
-                                            <i>{{publication.journal}}</i>
-                                        {% endif %}
-                                        {% if publication.pages %}
-                                            {{publication.pages}}.<br/>
-                                        {% else %}
-                                            .<br/>
-                                        {% endif %}
-                                        <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
-                                        {% if publication.osf %}
-                                            <a href="https://osf.io/{{publication.osf}}"><img src="https://img.shields.io/static/v1?label=Open Data&message=osf.io/{{publication.osf}}&color=green"> </a>
-                                        {% endif %}
-                                    {% endif %}
-                                    <!-- {% if publication.abstract %}
-                                        <br/>
-                                        <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light abstract-btn">Abstract ↓</button>
-                                    {% endif %} -->
-                                    <!-- <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
-                                        <div class="card-body card-abstract">
-                                            {{publication.abstract}}
-                                        </div>
-                                    </div> -->
-                                    {% if forloop.last %}
-                                        <br/><br/>
-                                    {% endif %}
-                                </td>
-                                <td class="publication">
-                                    {% if publication.pdf %}
-                                        <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><img src="img/PDF_file_icon.svg" style="height: 2em"></a>
-                                    {% endif %}
-                                </td>
-                        </tr>
-                        {% endfor %}
-                    {% endfor %}
-                    </table>
-                </div>
+<section id="publications" class="scroll-margin">
+        <div class="row dark2 padded">
+            <div class="col-lg-12 text-center">
+                <h3 style="color: white;">Publications</h3>
             </div>
         </div>
-    </section>
+        <div class="row container-light2">
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-10 offset-md-1">
+                <table class="table table-borderless">
+
+                {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
+                {% for current_group in grouped_by_year  %}
+                    <!-- <tr>
+                        {% if current_group.name == '3000' %}
+                            <th><h4>Coming soon...</h4></th>
+                        {% else %}
+                            <th><h4>{{current_group.name}}</h4></th>
+                        {% endif %}
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+
+                    <!-- Publications with the year -->
+                    {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
+                    {% for publication in sorted_publications %}
+                    <!-- <div class="row">
+                        <div class="col-md-1" align='right'>
+                        </div>
+                        <div class="col-md-9"> -->
+                        <tr>
+                            {% if forloop.first %}
+                                {% if current_group.name == '3000' %}
+                                    <th><h4>Coming soon...</h4></th>
+                                {% else %}
+                                    <th style="vertical-align: top;"><h4>{{current_group.name}}</h4></th>
+                                {% endif %}
+                            {% else %}
+                                <td class="publication"></td>
+                            {% endif %}
+                            <td class="publication">
+                                {% for author in publication.authors %}
+                                    {% if forloop.last %}
+                                        {% if publication.authors.size> 1 %}
+                                            and {{ author }}
+                                        {% else %}
+                                            {{author}}
+                                        {% endif %}
+                                    {% else %}
+                                        {% if publication.authors.size > 2 %}
+                                            {{ author }},
+                                        {% else %}
+                                            {{author}}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                                
+                                {% if publication.year != 3000 %}
+                                    ({{publication.year}}).
+                                {% else %}
+                                .
+                                {% endif %}
+                                <span style="font-weight: bold;">{{publication.title}}</span>.
+                                {% if publication.year != 3000 %}
+                                    {% if publication.volume %} 
+                                        <i>{{publication.journal}}</i>,
+                                        {% if publication.issue %}
+                                            <i>{{publication.volume}}</i>({{publication.issue}}),
+                                        {% else %}
+                                            <i>{{publication.volume}}</i>,
+                                        {% endif %}
+                                    {% else %}
+                                        <i>{{publication.journal}}</i>
+                                    {% endif %}
+                                    {% if publication.pages %}
+                                        {{publication.pages}}.<br/>
+                                    {% else %}
+                                        .<br/>
+                                    {% endif %}
+                                    <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
+                                    {% if publication.osf %}
+                                        <a href="https://osf.io/{{publication.osf}}"><img src="https://img.shields.io/static/v1?label=Open Data&message=osf.io/{{publication.osf}}&color=green"> </a>
+                                    {% endif %}
+                                {% endif %}
+                                <!-- {% if publication.abstract %}
+                                    <br/>
+                                    <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light abstract-btn">Abstract ↓</button>
+                                {% endif %} -->
+                                <!-- <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
+                                    <div class="card-body card-abstract">
+                                        {{publication.abstract}}
+                                    </div>
+                                </div> -->
+                                {% if forloop.last %}
+                                    <br/><br/>
+                                {% endif %}
+                            </td>
+                            <td class="publication">
+                                {% if publication.pdf %}
+                                    <a href= 'pdf/{{publication.pdf}}' style='vertical-align: middle'><img src="img/PDF_file_icon.svg" style="height: 2em"></a>
+                                {% endif %}
+                            </td>
+                    </tr>
+                    {% endfor %}
+                {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

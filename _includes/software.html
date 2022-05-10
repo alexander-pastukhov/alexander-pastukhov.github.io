@@ -1,24 +1,24 @@
 <!-- Software Section -->
-<section id="software" style="padding-top: 0%; padding-bottom: 0%;">
-    <div class="container-fluid container-light2">
-        <div class="row dark2 padded">
-            <div class="col-lg-12 text-center">
-                <h2>Software</h2>
-            </div>
+<section id="software" class="scroll-margin">
+    <div class="row dark1 py-3">
+        <div class="col-lg-12 text-center">
+            <h3 style="color: white;">Software</h3>
         </div>
+    </div>
+    <div class="container-fluid container-light1">
         {% assign sorted_software = (site.data.software | sort: 'index') %}
-        {% for current in sorted_software %}
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    {% if forloop.first == false %}
-                        <hr class="dark2"/>
-                    {% else %}
-                        <br/>
-                    {% endif %}
+            {% for current in sorted_software %}
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        {% if forloop.first == false %}
+                            <hr class="dark2"/>
+                        {% else %}
+                            <br/>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
-        <div class="row">
+            <div class="row">
                 
             <div class="col-md-1"></div>
             <div class="col-lg-10">

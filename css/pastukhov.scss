@@ -51,14 +51,30 @@ $dark2:#31525B;
 $light1: #FAE6B1;
 $light2: #B3DEE5;
 
+html {
+  scroll-behavior: smooth;
+}
+
 canvas.dark2 {
   background: $dark2;
   background-color: $dark2;
 }
 
+section.no-padding {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+section.scroll-margin {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  scroll-margin-top: 3em;
+}
+
+
 div.padded {
-  padding-bottom: 2em; 
-  padding-top: 2em;
+  padding-bottom: 1em; 
+  padding-top: 1em;
 }
 
 div.canvas-container {
@@ -78,6 +94,17 @@ body {
 td.publication {
   font-size: 20px;
 }
+
+td.cv-date {
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+td.cv {
+  font-size: 20px;
+}
+
 
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
@@ -170,6 +197,10 @@ div.dark2{
 
 h2.dark1 {
   color: $dark1;
+}
+
+h4 {
+  font-size: larger;
 }
 
 h1,

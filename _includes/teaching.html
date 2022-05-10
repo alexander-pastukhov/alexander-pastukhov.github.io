@@ -1,17 +1,17 @@
 <!-- Teaching Section -->
-<section id="teaching" style="padding-top: 0%; padding-bottom: 0%;">
-    <div class="container-fluid container-light1">
-        <div class="row dark1 padded">
+<section id="teaching" class="scroll-margin">
+        <div class="row dark2 py-3">
             <div class="col-lg-12 text-center">
-                <h2 style="color: white;">Teaching Notes</h2>
+                <h3 style="color: white;">Teaching Notes</h3>
             </div>
         </div>
-        {% for current in site.data.teaching %}
+        <div class="container-fluid container-light2">
+            {% for current in site.data.teaching %}
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     {% if forloop.first == false %}
-                        <hr class="dark1"/>
+                        <hr class="dark2"/>
                     {% else %}
                         <br/>
                     {% endif %}
@@ -21,10 +21,9 @@
                 
             <div class="col-md-1"></div>
             <div class="col-lg-10">
-                <h4><a href={{current.url}}>{{current.title}}</a></h4>
+                <h4>{{current.title}} </h4>
+                <p><a href={{current.url}}>{{current.url}}</a> <a href={{current.url}} target="_blank"><span class="material-icons">open_in_new</span></a></p>
                 <p>{{current.description}}</p>
-                <p><b><i class="fa fa-fw fa-github"></i><a href={{current.url}}><b>{{current.url}}</b></a></b>
-                </p>
             </div>
         </div>
         {% endfor %}
