@@ -42,15 +42,14 @@
         <div class="col-md-5 text-left offset-1">
             <table class="table table-borderless">
                 <tr style="border-bottom: 1pt solid black;border-top: 1pt solid black;">
-                    <th style="text-align: center;" nowrap><h4><span class="material-icons">terminal</span></th>
-                    <th style="text-align: center;"><h4>Programming skills</h4></th>
+                    <th style="text-align: center;" nowrap><h4><span class="material-icons">engineering</span></th>
+                    <th style="text-align: center;"><h4>Experience and Skills</h4></th>
                 </tr>
-                {% for language in site.data.cv.programming %}
+                {% for skill in site.data.cv.other_skills %}
                     <tr>
-                        <td class="cv-date" nowrap>{{language.language}}<br/>
-                            {% for i in (0..4) %}{%if i<language.level %}●{%else%}○{%endif%}{% endfor %}</td>
+                        <td class="cv-date" nowrap>{{skill.kind}}</td>
                         <td class="cv">
-                            {% for item in language.specifics %}
+                            {% for item in skill.specifics %}
                                 {{item}}{% if forloop.last == false %}<br/>{% endif %}
                             {% endfor %}
                         </td>
@@ -62,14 +61,15 @@
         <div class="col-md-5 text-left">
             <table class="table table-borderless">
                 <tr style="border-bottom: 1pt solid black;border-top: 1pt solid black;">
-                    <th style="text-align: center;" nowrap><h4><span class="material-icons">engineering</span></th>
-                    <th style="text-align: center;"><h4>Other (skills)</h4></th>
+                    <th style="text-align: center;" nowrap><h4><span class="material-icons">terminal</span></th>
+                    <th style="text-align: center;"><h4>Programming skills</h4></th>
                 </tr>
-                {% for skill in site.data.cv.other_skills %}
+                {% for language in site.data.cv.programming %}
                     <tr>
-                        <td class="cv-date" nowrap>{{skill.kind}}</td>
+                        <td class="cv-date" nowrap>{{language.language}}<br/>
+                            {% for i in (0..4) %} {%if i<language.level %}●{% else %}○{% endif %}{% endfor %}</td>
                         <td class="cv">
-                            {% for item in skill.specifics %}
+                            {% for item in language.specifics %}
                                 {{item}}{% if forloop.last == false %}<br/>{% endif %}
                             {% endfor %}
                         </td>
