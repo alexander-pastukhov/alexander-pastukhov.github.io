@@ -1,4 +1,4 @@
-- title : Writing games with Python and PsychoPy (work in progress)
+- title : Writing games with Python and PsychoPy
   description : >
     A two-semester introductory course on programming and Python aimed at undergraduate psychology students. The aim is to learn how to program psychological experiments using Python and PsychoPy by writing computer games (because experiments are simply boring computer games). The course assumes no prior knowledge or programming skills. The first semester covers basics including conditional statements, lists, dictionaries and use of PsychoPy. The second semester covers topics such as classes, generators, etc. You will program classic games such as "Guess the Number", "Whack-a-Mole", "Memory", "Snake", "Life", "Guitar Hero", etc.
   url: https://alexander-pastukhov.github.io/writing-games-with-python-and-psychopy/
