@@ -22,9 +22,11 @@
   index: 3
   language: R
   description: >
-    An R package to extract (micro)saccades from gaze samples via an ensemble of methods approach. Because there is no single agreed upon definition of a saccade, there are numerous algorithms that extract saccades based on various heuristics. As they differ in the assumptions (about velocity, acceleration, etc.) that they make, the package uses these methods to label individual samples and then applies a majority vote approach to identify saccades. The package includes three methods (see Implemented Methods vignette) but can be extended via custom methods (see Using custom methods vignette). When using this package, please cite both the package and individual methods.
+    The R package uses an ensemble of methods approach to label individual samples and then applies a majority vote approach to identify saccades. The package includes three methods but can be extended via custom methods. It also uses a modular approach to compute velocity and acceleration from noisy samples. Finally, you can obtain methods votes per gaze sample instead of saccades.
   github: https://github.com/alexander-pastukhov/saccadr
   docs: https://alexander-pastukhov.github.io/saccadr
+  CRAN : saccadr
+  zenodo: 465305815
 
 - title: TriDimRegression
   index: 4
