@@ -23,9 +23,9 @@
             <div class="col-md-1"></div>
             <div class="col-lg-10">
                 {% if current.docs %}
-                    <h4><a href={{current.docs}}>{{current.title}}</a> ({{current.language}})</h4>
+                    <h4><a href={{current.docs}}>{{current.title}}</a> {% for lang in current.language%}  <img src="img/{{lang}}.png" height="24" alt = {{lang}} data-toggle="tooltip" data-placement="top" title={{lang}}> {% endfor %}</h4>
                 {% else %}
-                    <h4>{{current.title}} ({{current.language}})</h4>
+                    <h4>{{current.title}} {% for lang in current.language%}  <img src="img/{{lang}}.png" height="24"> {% endfor %}</h4>
                 {% endif %}
                 {% if current.zenodo %}
                     <a href="https://zenodo.org/badge/latestdoi/{{current.zenodo}}"><img src="https://zenodo.org/badge/{{current.zenodo}}.svg" alt="DOI"></a>
