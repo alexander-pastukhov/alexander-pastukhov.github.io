@@ -45,6 +45,7 @@ other_skills:
 
 programming:
   - language: Python
+    logo: Python.png
     level: 5
     specifics:
       - 'Data Science: NumPy, Pandas, SciPy'
@@ -52,6 +53,7 @@ programming:
       - 'Web: Django'
       - 'Scientific Programming: PsychoPy, PyGame, Piglet, OpenGL/GLSL'
   - language: R
+    logo: R.png
     level: 5
     specifics:
       - 'Data Science: Tidyverse, ggplot2'
@@ -59,32 +61,38 @@ programming:
       - RMarkdown/Bookdown
       - Shiny
   - language: STAN
+    logo: Stan.png
     level: 4
     specifics:
       - Custom models
   - language: JavaScript
+    logo: JavaScript.png
     level: 3
     specifics:
       - AJAX
       - WebGL
   - language: Matlab
+    logo: Matlab.png
     level: 3
     specifics:
       - Data analysis
       - Psychtoolbox
       - Package development with MEX (C/C++) <a href="#software"><span class="material-icons">expand_circle_down</span></a>
   - language: C/C++
+    logo: C++.png
     level: 2
     specifics:
       - Rcpp for R
       - MEX for Matlab
       - OpenCV
   - language: C#
+    logo: Csharp.png
     level: 2
     specifics:
       - Unity
       - WPF
   - language: Java
+    logo: Java.png
     level: 2
     specifics:
       - Android

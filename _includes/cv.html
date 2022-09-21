@@ -66,7 +66,7 @@
                 </tr>
                 {% for language in site.data.cv.programming %}
                     <tr>
-                        <td class="cv-date" nowrap>{{language.language}}<br/>
+                        <td class="cv-date" nowrap><img src="img/{{language.logo}}" height="18" alt = {{language.language}}> {{language.language}}<br/>
                             {% for i in (0..4) %} {%if i<language.level %}●{% else %}○{% endif %}{% endfor %}</td>
                         <td class="cv">
                             {% for item in language.specifics %}
