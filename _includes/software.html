@@ -23,26 +23,35 @@
             <div class="col-md-1"></div>
             <div class="col-lg-10">
                 {% if current.docs %}
-                    <h4><a href={{current.docs}}>{{current.title}}</a> {% for lang in current.language%}  <img src="img/{{lang}}.png" height="24" alt = {{lang}} data-toggle="tooltip" data-placement="top" title={{lang}}> {% endfor %}</h4>
+                    <h4>{{current.title}} {% for lang in current.language%}  <img src="img/{{lang}}.png" height="18" alt = {{lang}} data-toggle="tooltip" data-placement="top" title={{lang}}> {% endfor %}</h4>
                 {% else %}
                     <h4>{{current.title}} {% for lang in current.language%}  <img src="img/{{lang}}.png" height="24"> {% endfor %}</h4>
                 {% endif %}
-                {% if current.zenodo %}
-                    <a href="https://zenodo.org/badge/latestdoi/{{current.zenodo}}"><img src="https://zenodo.org/badge/{{current.zenodo}}.svg" alt="DOI"></a>
-                {% endif %}
-                {% if current.CRAN %}
-                    <a href="https://cran.r-project.org/package={{current.CRAN}}" class="external-link"><img src="https://www.r-pkg.org/badges/version/{{current.CRAN}}" alt="CRAN status"></a>
-                {% endif %}
-                <p>{{current.description}}</p>
-                <p>
-                    {% if current.docs %}
-                    <b>Read the docs: <a href={{current.docs}}>{{current.docs}}</a><br/></b>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            {% if current.docs %}
+                            <a href={{current.docs}}><b>Read the docs</b></a> |
+                            {% endif %}
+                            <b><a href={{current.github}}><b>Browse source code</b></a></b>
+                            {% if current.CRAN %}
+                            | <b><a href="https://cran.r-project.org/package={{current.CRAN}}">View on CRAN</a></b>
+                            {% endif %}
+                        </p>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                        <p>
+                        {% if current.zenodo %}
+                        <a href="https://zenodo.org/badge/latestdoi/{{current.zenodo}}"><img src="https://zenodo.org/badge/{{current.zenodo}}.svg" alt="DOI"></a>
                     {% endif %}
-                    <b><i class="fa fa-fw fa-github"></i><a href={{current.github}}><b>{{current.github}}</b></a></b>
                     {% if current.CRAN %}
-                    <br/><b><i class="fa fa-fw icon icon-cran align-self-center"></i><a href="https://cran.r-project.org/package={{current.CRAN}}">https://cran.r-project.org/package={{current.CRAN}}</a></b>
+                        <a href="https://cran.r-project.org/package={{current.CRAN}}" class="external-link"><img src="https://www.r-pkg.org/badges/version/{{current.CRAN}}" alt="CRAN status"></a>
                     {% endif %}
                 </p>
+    
+                    </div>
+                </div>
+            <p>{{current.description}}</p>
             </div>
         </div>
         {% endfor %}
