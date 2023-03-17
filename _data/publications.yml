@@ -1,4 +1,19 @@
-﻿- title: "Keeping the Kids Home"
+﻿- title: "Reconstructing a disambiguation sequence that forms perceptual memory of multistable displays via reverse correlation method: Bias onset perception but gently"
+  journal: Journal of Vision
+  year: 2023
+  pdf: Pastukhov, Koßmann, Carbon - 2023 - Reconstructing a disambiguation sequence that forms perceptual memory of multistable displays via re.pdf
+  authors:
+    - Alexander Pastukhov
+    - Lisa Koßmann
+    - Christian-Claus Carbon
+  doi: 10.1167/jov.23.3.10
+  osf: ypvbggw7kc
+  index: 1
+  abstract : >
+    When multistable displays are presented intermittently with long blank intervals, their onset perception is determined by perceptual memory of multistable displays. We investigated when and how it is formed using a reverse correlation method and bistable kinetic depth effect displays. Each experimental block consisted of interleaved fully ambiguous probe and exogenously disambiguated prime displays. The purpose of the former was to “read out” the perceptual memory, whereas the latter contained purely random disambiguation sequences that were presented at the beginning of the prime display, throughout the entire presentation, or at the beginning and the end of the presentation. For each experiment and condition, we selected a subset of trials with disambiguation sequences that led to a change in perception of either the prime itself (sequences that modified perception) or the following fully ambiguous probe (sequences that modified perceptual memory). We estimated average disambiguation sequences for each participant using additive linear models. We found that an optimal sequence started at the onset with a moderate disambiguation against the previously dominant state (dominant perception for the previous probe) that gradually reduced until the display is fully ambiguous. We also show that the same sequence leads to an altered perception of the prime, indicating that perception and perceptual memory form at the same time. We suggest that perceptual memory is a consequence of an earlier evidence accumulation process and is informative about how the visual system treated ambiguity in the past rather than how it anticipates an uncertain future.
+
+
+- title: "Keeping the Kids Home"
   journal: Social Psychology
   year: 2022
   pdf: Leder, Schuetz, Pastukhov - 2022 - Keeping kids at home.pdf
