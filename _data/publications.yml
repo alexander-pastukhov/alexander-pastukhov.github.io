@@ -1,4 +1,21 @@
-﻿- title: "Reconstructing a disambiguation sequence that forms perceptual memory of multistable displays via reverse correlation method: Bias onset perception but gently"
+﻿- title: "History-dependent changes to distribution of dominance phases in multistable perception"
+  journal: Journal of Vision
+  year: 2023
+  pdf: Pastukhov, Styrnal, Carbon - 2023 - History-dependent changes to distribution of dominance phases in multistable perception.pdf
+  authors:
+    - Alexander Pastukhov
+    - Malin Styrnal
+    - Christian-Claus Carbon
+  doi: 10.1167/jov.23.3.16
+  osf: js3wv
+  index: 3
+  volume: 23
+  issue: 3
+  pages: 16
+  abstract : >
+    Multistability – spontaneous switches of perception when viewing a stimulus compatible with several percepts – is often characterized by the distribution of durations of dominance phases. For continuous viewing conditions, these distributions are similar for various multistable displays and share two characteristic features: a Gamma-like distribution shape and dependence of dominance durations on the perceptual history. Both properties depend on a balance between self-adaptation (also conceptualized as a weakening stability prior) and noise. Prior experimental work and simulations that systematically manipulated displays showed that faster self-adaptation leads to a more “normal-like” distribution and, typically, to more regular dominance durations. We used a leaky integrator approach to estimate accumulated differences in self-adaptation between competing representations and used it as a predictor when fitting two parameters of a Gamma distribution independently. We confirmed earlier work showing that larger differences in self-adaptation led to a more “normal-like” distribution suggesting similar mechanisms that rely on the balance between self-adaptation and noise. However, these larger differences led to less regular dominance phases suggesting that longer times required for recovery from adaptation give noise more chances to induce a spontaneous switch. Our results also remind us that individual dominance phases are not “independent and identically distributed.”
+
+- title: "Reconstructing a disambiguation sequence that forms perceptual memory of multistable displays via reverse correlation method: Bias onset perception but gently"
   journal: Journal of Vision
   year: 2023
   pdf: Pastukhov, Koßmann, Carbon - 2023 - Reconstructing a disambiguation sequence that forms perceptual memory of multistable displays via re.pdf
