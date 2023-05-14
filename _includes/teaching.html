@@ -1,17 +1,18 @@
+{% include change_color.html %}
 <!-- Teaching Section -->
 <section id="teaching" class="scroll-margin">
-        <div class="row dark2 py-3">
+        <div class="row dark{{icolor}} py-3">
             <div class="col-lg-12 text-center">
-                <h3 style="color: white;">Teaching Notes</h3>
+                <h3 class="light{{icolor}}">Teaching Notes</h3>
             </div>
         </div>
-        <div class="container-fluid container-light2">
+        <div class="container-fluid container-light{{icolor}}">
             {% for current in site.data.teaching %}
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     {% if forloop.first == false %}
-                        <hr class="dark2"/>
+                        <hr class="dark{{icolor}}"/>
                     {% else %}
                         <br/>
                     {% endif %}

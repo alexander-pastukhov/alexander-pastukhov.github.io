@@ -47,6 +47,8 @@
   doi: 10.1027/1864-9335/a000463
   osf: 6e7bc
   index: 1
+  abstract: >
+    During the COVID-19 pandemic, social consequences in day-to-day decisions might not have been salient to the decider and thus egoistic. How can prosocial intentions be increased? In an experimental vignette study with N = 206, we compared the likelihood that parents send sick children to kindergarten after four interventions (general information about COVID-19, empathy, reflection of consequences via mental simulation, and control group). Independent of the intervention, empathic concern with individuals who were affected by COVID-19 and the salience of social consequences were high. The reported likelihood of sending a sick child to kindergarten was somewhat reduced in the control group and even more reduced in the reflection and empathy group, but not in the information group.
 
 - title: "bistablehistory: an R package for history-dependent analysis of perceptual time series"
   journal: The Journal of Open Source Software

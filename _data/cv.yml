@@ -1,4 +1,20 @@
 other_skills:
+  - kind : Academia
+    specifics:
+      - publications in referred journals <a href="#publications"><span class="material-icons">expand_circle_down</span></a>
+      - 2013 “Best of the Year” award from the Psychonomic Society <a href="https://www.psychonomic.org/page/2013BestArticleAward"target="_blank"><span class="material-icons">open_in_new</span></a>
+      - "70+ conference abstracts"
+  - kind: Teaching
+    specifics:
+      - Python <a href="https://alexander-pastukhov.github.io/writing-games-with-python-and-psychopy/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - R for data science <a href="https://alexander-pastukhov.github.io/data-analysis-using-r-for-psychology/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Machine learning
+      - Bayesian statistics <a href="https://alexander-pastukhov.github.io/notes-on-statistics/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Linear algebra <a href="https://alexander-pastukhov.github.io/cohen-linear-algebra/" target="_blank"><span class="material-icons">open_in_new</span></a>
+      - Matlab
+      - Neurobiology of visual and non-visual perception
+      - Decision making
+      - Neurobiology of consciousness
   - kind: Data Science
     specifics:
       - R and Python
@@ -22,22 +38,6 @@ other_skills:
       - Russian (native)
       - English (fluent writing and speaking)
       - German (fluent speaking, good writing)
-  - kind : Academia
-    specifics:
-      - 38 publications in referred journals <a href="#publications"><span class="material-icons">expand_circle_down</span></a>
-      - 2013 “Best of the Year” award from the Psychonomic Society <a href="https://www.psychonomic.org/page/2013BestArticleAward"target="_blank"><span class="material-icons">open_in_new</span></a>
-      - 71 conference abstracts
-  - kind: Teaching
-    specifics:
-      - Python <a href="https://alexander-pastukhov.github.io/writing-games-with-python-and-psychopy/" target="_blank"><span class="material-icons">open_in_new</span></a>
-      - R for data science <a href="https://alexander-pastukhov.github.io/data-analysis-using-r-for-psychology/" target="_blank"><span class="material-icons">open_in_new</span></a>
-      - Machine learning
-      - Bayesian statistics <a href="https://alexander-pastukhov.github.io/notes-on-statistics/" target="_blank"><span class="material-icons">open_in_new</span></a>
-      - Linear algebra <a href="https://alexander-pastukhov.github.io/cohen-linear-algebra/" target="_blank"><span class="material-icons">open_in_new</span></a>
-      - Matlab
-      - Neurobiology of visual and non-visual perception
-      - Decision making
-      - Neurobiology of consciousness
   - kind : Hobbies
     specifics:
       - <span class="material-symbols-outlined">kayaking</span> White water kayaking <a href="https://faltbootclub.de/" target="_blank"><span class="material-icons">open_in_new</span></a>

@@ -1,18 +1,20 @@
+{% include change_color.html %}
+
 <!-- Software Section -->
 <section id="software" class="scroll-margin">
-    <div class="row dark1 py-3">
+    <div class="row dark{{icolor}} py-3">
         <div class="col-lg-12 text-center">
             <h3 style="color: white;">Software</h3>
         </div>
     </div>
-    <div class="container-fluid container-light1">
+    <div class="container-fluid container-light{{icolor}}">
         {% assign sorted_software = (site.data.software | sort: 'index') %}
             {% for current in sorted_software %}
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         {% if forloop.first == false %}
-                            <hr class="dark2"/>
+                            <hr class="dark{{icolor}}"/>
                         {% else %}
                             <br/>
                         {% endif %}

@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .demo-icon {
   font-family: "pastukhov";
   font-style: normal;
@@ -157,11 +158,13 @@ a.light2.active{
 .container-light1{
   background-color: $light1;
   color: $dark2;
+  padding-top: 2em;
 }
 
 .container-light2{
   background-color: $light2;
   color: $dark2;
+  padding-top: 2em;
 }
 
 hr.dark1 {
@@ -173,7 +176,13 @@ hr.dark2 {
   border: 1px solid $dark2;
 }
 
-a.dark{
+a.dark1{
+  color: $dark1;
+  outline: none;
+}
+
+
+a.dark2{
   color: $dark2;
   outline: none;
 }
@@ -198,6 +207,19 @@ h2.dark1 {
   color: $dark1;
 }
 
+h2.dark2 {
+  color: $dark2;
+}
+
+
+h3.dark1 {
+  color: white;
+}
+
+h3.dark2 {
+  color: $dark2;
+}
+
 h4 {
   font-size: larger;
 }
@@ -211,6 +233,9 @@ h6 {
   font-family: "Ramabhadra", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
+
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -529,11 +554,18 @@ footer .footer-below {
   border: solid 2px white;
 }
 
-.btn-light {
+.btn-light1 {
   color: $dark1;
   background: $light1;
   border: solid 2px $dark1;
 }
+
+.btn-light2 {
+  color: $dark2;
+  background: $light2;
+  border: solid 2px $dark2;
+}
+
 
 .btn-light:hover,
 .btn-light:focus,

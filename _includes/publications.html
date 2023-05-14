@@ -1,35 +1,22 @@
+{% include change_color.html %}
+
 <!-- Publications Section -->
 <section id="publications" class="scroll-margin">
-        <div class="row dark2 padded">
+        <div class="row dark{{icolor}} padded">
             <div class="col-lg-12 text-center">
                 <h3 style="color: white;">Publications</h3>
             </div>
         </div>
-        <div class="row container-light2">
+        <div class="row container-light{{icolor}}">
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-10 offset-md-1">
                 <table class="table table-borderless">
 
                 {% assign grouped_by_year=  (site.data.publications | group_by: 'year') | (sort: 'name') | reverse %}
                 {% for current_group in grouped_by_year  %}
-                    <!-- <tr>
-                        {% if current_group.name == '3000' %}
-                            <th><h4>Coming soon...</h4></th>
-                        {% else %}
-                            <th><h4>{{current_group.name}}</h4></th>
-                        {% endif %}
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr> -->
-
-                    <!-- Publications with the year -->
+                    <!-- Publications within the year -->
                     {% assign sorted_publications = (current_group.items | sort: 'index') | reverse %}
                     {% for publication in sorted_publications %}
-                    <!-- <div class="row">
-                        <div class="col-md-1" align='right'>
-                        </div>
-                        <div class="col-md-9"> -->
                         <tr>
                             {% if forloop.first %}
                                 {% if current_group.name == '3000' %}
@@ -75,24 +62,23 @@
                                         <i>{{publication.journal}}</i>
                                     {% endif %}
                                     {% if publication.pages %}
-                                        {{publication.pages}}.<br/>
+                                        {{publication.pages}}.
                                     {% else %}
-                                        .<br/>
+                                        .
                                     {% endif %}
-                                    <a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
+                                    {% if publication.abstract %}
+                                    <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light{{icolor}} abstract-btn">Abstract ↓</button>
+                                    {% endif %}
+                                    <br/><a href="https://doi.org/{{publication.doi}}"><img src="https://img.shields.io/static/v1?label=DOI&message={{publication.doi}}&color=blue"></a>
                                     {% if publication.osf %}
                                         <a href="https://osf.io/{{publication.osf}}"><img src="https://img.shields.io/static/v1?label=Open Data&message=osf.io/{{publication.osf}}&color=green"> </a>
                                     {% endif %}
                                 {% endif %}
-                                <!-- {% if publication.abstract %}
-                                    <br/>
-                                    <button id="btn-{{current_group.name}}-{{ forloop.index }}" doi="{{current_group.name}}-{{ forloop.index }}" type="button" class="btn btn-light abstract-btn">Abstract ↓</button>
-                                {% endif %} -->
-                                <!-- <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
+                                <div id="card-{{current_group.name}}-{{ forloop.index }}" class="card abstract-card" hidden>
                                     <div class="card-body card-abstract">
                                         {{publication.abstract}}
                                     </div>
-                                </div> -->
+                                </div>
                                 {% if forloop.last %}
                                     <br/><br/>
                                 {% endif %}

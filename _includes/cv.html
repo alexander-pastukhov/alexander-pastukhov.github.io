@@ -1,12 +1,12 @@
+{% include change_color.html %}
 <section id="cv" class="scroll-margin"> 
-
-    <div class="row dark1 py-3" >
+    <div class="row dark{{icolor}} py-3" >
         <div class="col-lg-12 text-center">
-            <h3 style="color: white;">Curriculum Vitae</h3>
+            <h3 class="dark{{icolor}}">Curriculum Vitae</h3>
         </div>
     </div>
 
-    <div class="row container-light1" style="padding-top: 2em;">
+    <div class="row container-light{{icolor}}">
         <div class="col-md-5 text-left offset-1">
             <table class="table table-borderless">
                 <tr style="border-bottom: 1pt solid black;border-top: 1pt solid black;">
@@ -38,7 +38,7 @@
             </table>
         </div>
     </div>
-    <div class="row container-light1" style="padding-top: 2em;">
+    <div class="row container-light{{icolor}}">
         <div class="col-md-5 text-left offset-1">
             <table class="table table-borderless">
                 <tr style="border-bottom: 1pt solid black;border-top: 1pt solid black;">
@@ -50,7 +50,12 @@
                         <td class="cv-date" nowrap>{{skill.kind}}</td>
                         <td class="cv">
                             {% for item in skill.specifics %}
-                                {{item}}{% if forloop.last == false %}<br/>{% endif %}
+                                {% if skill.kind == "Academia" %}
+                                    {% if forloop.first %}
+                                        {{site.data.publications.size}}
+                                    {% endif %}
+                                {%endif %}
+                                {{item}}{% if forloop.last == false %}<br/> {% endif %}
                             {% endfor %}
                         </td>
                     </tr>
