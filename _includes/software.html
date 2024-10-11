@@ -22,7 +22,11 @@
                 </div>
             <div class="row">
                 
-            <div class="col-md-1"></div>
+            <div class="col-md-1">
+                {% if current.logo %}
+                <img class="img-fluid" src="img/hex-logos/{{current.logo}}">
+                {% endif %}
+            </div>
             <div class="col-lg-10">
                 {% if current.docs %}
                     <h4>{{current.title}} {% for lang in current.language%}  <img src="img/{{lang}}.png" height="18" alt = {{lang}} data-toggle="tooltip" data-placement="top" title={{lang}}> {% endfor %}</h4>

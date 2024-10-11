@@ -7,6 +7,7 @@
   github: https://github.com/alexander-pastukhov/bistablehistory
   CRAN: bistablehistory
   zenodo: 299245172
+  logo: bistablehistory.svg
 
 - title: eyelinkReader
   index: 2
@@ -17,6 +18,7 @@
   docs: https://alexander-pastukhov.github.io/eyelinkReader
   CRAN : eyelinkReader
   zenodo: 134551196
+  logo: eyelinkReader.svg
 
 - title: saccadr
   index: 3
@@ -27,6 +29,7 @@
   docs: https://alexander-pastukhov.github.io/saccadr
   CRAN : saccadr
   zenodo: 465305815
+  logo: saccadr.svg
 
 - title: TriDimRegression
   index: 4
@@ -37,6 +40,7 @@
   github: https://github.com/alexander-pastukhov/tridim-regression
   CRAN : TriDimRegression
   zenodo: 139134694
+  logo: TriDimRegression.svg
 
 
 - title: BiDimRegression
@@ -48,6 +52,7 @@
   github: https://github.com/alexander-pastukhov/bidim-regression
   CRAN: BiDimRegression
   zenodo: 128784205
+  logo: BiDimRegression.svg
 
 - title: edfImport
   index : 6
